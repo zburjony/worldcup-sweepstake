@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T04:41:11.972Z",
+  "generatedAt": "2026-06-16T04:56:22.250Z",
   "players": [
     {
       "name": "Johnny",
@@ -276,10 +276,10 @@
     "URU": {
       "name": "Uruguay",
       "flag": "🇺🇾",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 1,
       "group": "H"
     },
     "USA": {
@@ -312,10 +312,10 @@
     "IRN": {
       "name": "Iran",
       "flag": "🇮🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "played": 1,
+      "points": 1,
       "group": "G"
     },
     "TUR": {
@@ -510,10 +510,10 @@
     "KSA": {
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 1,
       "group": "H"
     },
     "JOR": {
@@ -573,17 +573,17 @@
     "NZL": {
       "name": "New Zealand",
       "flag": "🇳🇿",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "played": 1,
+      "points": 1,
       "group": "G"
     }
   },
   "matches": [
     {
-      "id": "fallback-1",
-      "date": null,
+      "id": "1",
+      "date": "06/11/2026 13:00",
       "group": "A",
       "home": "MEX",
       "away": "RSA",
@@ -592,8 +592,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-2",
-      "date": null,
+      "id": "2",
+      "date": "06/11/2026 20:00",
       "group": "A",
       "home": "KOR",
       "away": "CZE",
@@ -602,8 +602,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-3",
-      "date": null,
+      "id": "3",
+      "date": "06/12/2026 15:00",
       "group": "B",
       "home": "CAN",
       "away": "BIH",
@@ -612,8 +612,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-4",
-      "date": null,
+      "id": "4",
+      "date": "06/12/2026 18:00",
       "group": "D",
       "home": "USA",
       "away": "PAR",
@@ -622,8 +622,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-5",
-      "date": null,
+      "id": "8",
+      "date": "06/13/2026 12:00",
       "group": "B",
       "home": "QAT",
       "away": "SUI",
@@ -632,8 +632,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-6",
-      "date": null,
+      "id": "7",
+      "date": "06/13/2026 18:00",
       "group": "C",
       "home": "BRA",
       "away": "MAR",
@@ -642,8 +642,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-7",
-      "date": null,
+      "id": "5",
+      "date": "06/13/2026 21:00",
       "group": "C",
       "home": "HTI",
       "away": "SCO",
@@ -652,8 +652,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-8",
-      "date": null,
+      "id": "6",
+      "date": "06/13/2026 21:00",
       "group": "D",
       "home": "AUS",
       "away": "TUR",
@@ -662,8 +662,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-9",
-      "date": null,
+      "id": "10",
+      "date": "06/14/2026 12:00",
       "group": "E",
       "home": "GER",
       "away": "CUW",
@@ -672,8 +672,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-10",
-      "date": null,
+      "id": "11",
+      "date": "06/14/2026 15:00",
       "group": "F",
       "home": "NED",
       "away": "JPN",
@@ -682,8 +682,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-11",
-      "date": null,
+      "id": "9",
+      "date": "06/14/2026 19:00",
       "group": "E",
       "home": "CIV",
       "away": "ECU",
@@ -692,8 +692,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-12",
-      "date": null,
+      "id": "12",
+      "date": "06/14/2026 20:00",
       "group": "F",
       "home": "SWE",
       "away": "TUN",
@@ -702,8 +702,8 @@
       "status": "FT"
     },
     {
-      "id": "fallback-13",
-      "date": null,
+      "id": "14",
+      "date": "06/15/2026 12:00",
       "group": "H",
       "home": "ESP",
       "away": "CPV",
@@ -712,16 +712,36 @@
       "status": "FT"
     },
     {
-      "id": "fallback-14",
-      "date": null,
+      "id": "15",
+      "date": "06/15/2026 12:00",
       "group": "G",
       "home": "BEL",
       "away": "EGY",
       "homeGoals": 1,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "13",
+      "date": "06/15/2026 18:00",
+      "group": "G",
+      "home": "IRN",
+      "away": "NZL",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
+      "id": "16",
+      "date": "06/15/2026 18:00",
+      "group": "H",
+      "home": "KSA",
+      "away": "URU",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
-  "source": "fallback-in-repo",
-  "sourceOk": false
+  "source": "https://worldcup26.ir/get/games",
+  "sourceOk": true
 }
