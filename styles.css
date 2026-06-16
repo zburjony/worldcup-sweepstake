@@ -826,9 +826,9 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
 
 @media (max-width: 236px) {
   :root {
-    --gb-mobile-rank: 30px;
-    --gb-mobile-player: 94px;
-    --gb-mobile-teams: 78px;
+    --gb-mobile-rank: 28px;
+    --gb-mobile-player: 84px;
+    --gb-mobile-teams: 70px;
     --gb-mobile-score: 34px;
   }
 
