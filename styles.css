@@ -131,3 +131,19 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
   .score-card { grid-template-columns: 1fr auto 1fr; gap: 6px; padding-left: 8px; padding-right: 8px; }
   .scoreline { font-size: 1rem; padding: 4px 8px; }
 }
+
+
+/* v4 mobile/leaderboard fixes */
+#goldenBootTable { min-width: 0; }
+#goldenBootTable .teams-compact { white-space: normal; }
+#goldenBootTable .compact-only .team-full { display: none !important; }
+#goldenBootTable th:nth-child(1), #goldenBootTable td:nth-child(1) { width: 48px; }
+#goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4),
+#goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) { width: 64px; text-align: right; }
+@media (max-width: 560px) {
+  #goldenBootTable th, #goldenBootTable td { padding: 9px 6px; }
+  #goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) { max-width: 132px; }
+  #goldenBootTable .team-pill { padding: 4px 5px; font-size: .86rem; }
+  #goldenBootTable .flag { min-width: 1em; }
+  #drawTable th:nth-child(5), #drawTable td:nth-child(5) { display:none; }
+}

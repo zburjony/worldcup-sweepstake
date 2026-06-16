@@ -48,3 +48,8 @@ If the API is unavailable, it falls back to the initial score set included in th
 ## Change update times
 
 Edit `.github/workflows/update-results.yml` and adjust the cron lines. GitHub cron uses UTC.
+
+
+## v4 update
+- GitHub Actions now runs hourly.
+- Golden Boot table is mobile-friendly: no G/G column and teams show as flag + three-letter code.
