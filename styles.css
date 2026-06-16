@@ -188,3 +188,93 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
   #goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) { width: 36px; }
   .flag-only { width: 1.05em; font-size: .92rem; }
 }
+
+
+/* v6: tighter Golden Boot table for phones */
+#goldenBootTable {
+  table-layout: fixed;
+  width: 100%;
+}
+#goldenBootTable .gb-rank-col { width: 30px; max-width: 30px; }
+#goldenBootTable .gb-teams-col { width: 62px; max-width: 62px; }
+#goldenBootTable .gb-goals-col { width: 34px; max-width: 34px; }
+#goldenBootTable .gb-games-col { width: 34px; max-width: 34px; }
+#goldenBootTable .gb-player-col { width: auto; }
+#goldenBootTable th:nth-child(1), #goldenBootTable td:nth-child(1) {
+  width: 30px !important;
+  max-width: 30px !important;
+  min-width: 30px !important;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+}
+#goldenBootTable th:nth-child(2), #goldenBootTable td:nth-child(2) {
+  width: auto !important;
+  min-width: 0;
+}
+#goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) {
+  width: 62px !important;
+  max-width: 62px !important;
+  min-width: 62px !important;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+}
+#goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4),
+#goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) {
+  width: 34px !important;
+  max-width: 34px !important;
+  min-width: 34px !important;
+  padding-left: 2px;
+  padding-right: 4px;
+  text-align: right;
+}
+#goldenBootTable .rank {
+  display: block;
+  width: 100%;
+  max-width: 24px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+}
+#goldenBootTable .player {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#goldenBootTable .teams-flags {
+  white-space: nowrap;
+  overflow: hidden;
+}
+#goldenBootTable .flag-only {
+  width: 1.02em;
+  min-width: 1.02em;
+  margin: 0 -1px;
+  font-size: .95rem;
+}
+
+@media (max-width: 560px) {
+  #goldenBootTable { font-size: .86rem; }
+  #goldenBootTable th { font-size: .58rem; letter-spacing: .02em; }
+  #goldenBootTable th, #goldenBootTable td { padding-top: 7px; padding-bottom: 7px; }
+  #goldenBootTable .gb-rank-col { width: 28px; max-width: 28px; }
+  #goldenBootTable .gb-teams-col { width: 58px; max-width: 58px; }
+  #goldenBootTable .gb-goals-col { width: 32px; max-width: 32px; }
+  #goldenBootTable .gb-games-col { width: 32px; max-width: 32px; }
+  #goldenBootTable th:nth-child(1), #goldenBootTable td:nth-child(1) {
+    width: 28px !important;
+    max-width: 28px !important;
+    min-width: 28px !important;
+  }
+  #goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) {
+    width: 58px !important;
+    max-width: 58px !important;
+    min-width: 58px !important;
+  }
+  #goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4),
+  #goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) {
+    width: 32px !important;
+    max-width: 32px !important;
+    min-width: 32px !important;
+  }
+}
