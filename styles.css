@@ -903,3 +903,25 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
     text-align: center !important;
   }
 }
+
+@media (max-width: 600px) {
+  table {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+    font-size: 11px !important;
+  }
+
+  th, td {
+    padding: 4px 2px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  th:nth-child(1), td:nth-child(1) { width: 24px !important; }
+  th:nth-child(2), td:nth-child(2) { width: 80px !important; }
+  th:nth-child(3), td:nth-child(3) { width: 70px !important; }
+  th:nth-child(4), td:nth-child(4) { width: 30px !important; }
+  th:nth-child(5), td:nth-child(5) { width: 30px !important; }
+}
