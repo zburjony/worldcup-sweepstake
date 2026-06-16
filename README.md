@@ -12,7 +12,7 @@ Static GitHub Pages website for the family World Cup sweepstake.
 - World Cup group standings, ranked by points, goal difference, and goals for.
 - Team goals tracker.
 - Uses the actual England and Scotland subdivision emoji sequences in the data.
-- Updates `data/results.json` automatically twice a day using GitHub Actions.
+- Updates `data/results.json` automatically every hour using GitHub Actions.
 
 ## Setup on GitHub Pages
 
@@ -30,10 +30,9 @@ Static GitHub Pages website for the family World Cup sweepstake.
 
 The workflow is in `.github/workflows/update-results.yml`.
 
-It runs twice daily using UTC times:
+It runs every hour using GitHub Actions cron:
 
-- `0 20 * * *` = about 8:00am Auckland during NZST
-- `0 8 * * *` = about 8:00pm Auckland during NZST
+- `0 * * * *` = at the start of every hour
 
 You can also run it manually from **Actions → Update World Cup results → Run workflow**.
 
@@ -68,3 +67,16 @@ To tweak mobile widths, edit `styles.css` and search for:
 ```
 
 These control the mobile Golden Boot column widths.
+
+
+## v12 automation fix
+
+The live site timestamp comes from `data/results.json` → `generatedAt`.
+
+The GitHub Action now runs `npm run update`, which rewrites `data/results.json` and updates `generatedAt`. It does not use `data/last-updated.txt`.
+
+If the hidden `.github` folder does not upload from your computer, create this file manually in GitHub:
+
+`.github/workflows/update-results.yml`
+
+Then paste the contents of `UPDATE_WORKFLOW_COPY_PASTE.yml`.
