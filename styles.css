@@ -532,3 +532,306 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
     max-width: 34px !important;
   }
 }
+
+
+/* v10 FINAL: Golden Boot stable, mobile-first 4-column layout */
+.golden-card {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.golden-card .table-wrap {
+  overflow-x: visible !important;
+  max-width: 100%;
+}
+#goldenBootTable {
+  width: 100% !important;
+  min-width: 0 !important;
+  table-layout: fixed !important;
+  border-collapse: collapse;
+}
+#goldenBootTable th,
+#goldenBootTable td {
+  box-sizing: border-box;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 9px 8px !important;
+}
+#goldenBootTable th:nth-child(1),
+#goldenBootTable td:nth-child(1) {
+  width: 44px !important;
+  min-width: 44px !important;
+  max-width: 44px !important;
+  text-align: center !important;
+}
+#goldenBootTable th:nth-child(2),
+#goldenBootTable td:nth-child(2) {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  text-align: left !important;
+  overflow: hidden !important;
+}
+#goldenBootTable th:nth-child(3),
+#goldenBootTable td:nth-child(3),
+#goldenBootTable th:nth-child(4),
+#goldenBootTable td:nth-child(4) {
+  width: 48px !important;
+  min-width: 48px !important;
+  max-width: 48px !important;
+  text-align: center !important;
+}
+#goldenBootTable .rank {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  color: var(--gold);
+  font-weight: 1000;
+  overflow: hidden !important;
+  text-overflow: clip !important;
+}
+#goldenBootTable .player {
+  font-weight: 900;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+#goldenBootTable .player-name {
+  margin-right: 8px;
+}
+#goldenBootTable .teams-inline {
+  white-space: nowrap;
+  font-weight: 400;
+}
+#goldenBootTable .gb-flag {
+  display: inline-block;
+  font-family: 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji', emoji, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  margin-right: 2px;
+}
+#goldenBootTable .goals,
+#goldenBootTable .games {
+  font-weight: 1000;
+  font-size: 1.05rem !important;
+}
+#goldenBootTable .goals { color: var(--gold); }
+
+@media (max-width: 700px) {
+  .golden-card {
+    max-width: none;
+    width: 100%;
+    padding: 14px;
+  }
+  #goldenBootTable th,
+  #goldenBootTable td {
+    padding: 8px 6px !important;
+  }
+  #goldenBootTable th {
+    font-size: .62rem !important;
+    letter-spacing: .03em;
+  }
+  #goldenBootTable th:nth-child(1),
+  #goldenBootTable td:nth-child(1) {
+    width: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+  }
+  #goldenBootTable th:nth-child(3),
+  #goldenBootTable td:nth-child(3),
+  #goldenBootTable th:nth-child(4),
+  #goldenBootTable td:nth-child(4) {
+    width: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+  }
+  #goldenBootTable .player {
+    font-size: .95rem !important;
+  }
+  #goldenBootTable .player-name {
+    margin-right: 5px;
+  }
+  #goldenBootTable .gb-flag {
+    font-size: .94rem;
+    margin-right: 1px;
+  }
+  #goldenBootTable .goals,
+  #goldenBootTable .games {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  #goldenBootTable th,
+  #goldenBootTable td {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+  #goldenBootTable th:nth-child(1),
+  #goldenBootTable td:nth-child(1) {
+    width: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+  }
+  #goldenBootTable th:nth-child(3),
+  #goldenBootTable td:nth-child(3),
+  #goldenBootTable th:nth-child(4),
+  #goldenBootTable td:nth-child(4) {
+    width: 34px !important;
+    min-width: 34px !important;
+    max-width: 34px !important;
+  }
+  #goldenBootTable .player { font-size: .9rem !important; }
+  #goldenBootTable .gb-flag { font-size: .9rem; }
+}
+
+/* v11 FINAL: Golden Boot stable 5-column mobile table.
+   Tweak these variables if you want to adjust the mobile width. */
+:root {
+  --gb-mobile-rank: 34px;
+  --gb-mobile-player: 104px;
+  --gb-mobile-teams: 86px;
+  --gb-mobile-score: 38px;
+}
+
+#goldenBootTable {
+  width: 100% !important;
+  min-width: 0 !important;
+  table-layout: fixed !important;
+}
+
+#goldenBootTable th,
+#goldenBootTable td {
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  overflow: hidden !important;
+}
+
+#goldenBootTable th:nth-child(1),
+#goldenBootTable td:nth-child(1) {
+  width: 48px !important;
+  min-width: 48px !important;
+  max-width: 48px !important;
+  text-align: center !important;
+}
+
+#goldenBootTable th:nth-child(2),
+#goldenBootTable td:nth-child(2) {
+  width: auto !important;
+  min-width: 110px !important;
+  max-width: none !important;
+  text-align: left !important;
+}
+
+#goldenBootTable th:nth-child(3),
+#goldenBootTable td:nth-child(3) {
+  width: 116px !important;
+  min-width: 116px !important;
+  max-width: 116px !important;
+  text-align: center !important;
+}
+
+#goldenBootTable th:nth-child(4),
+#goldenBootTable td:nth-child(4),
+#goldenBootTable th:nth-child(5),
+#goldenBootTable td:nth-child(5) {
+  width: 52px !important;
+  min-width: 52px !important;
+  max-width: 52px !important;
+  text-align: center !important;
+}
+
+#goldenBootTable .rank {
+  color: var(--gold) !important;
+  font-weight: 1000 !important;
+}
+
+#goldenBootTable .player {
+  font-weight: 900 !important;
+  text-overflow: ellipsis !important;
+}
+
+#goldenBootTable .teams {
+  text-align: center !important;
+  letter-spacing: 0 !important;
+}
+
+#goldenBootTable .gb-flag {
+  display: inline-block !important;
+  font-family: 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji', emoji, sans-serif !important;
+  font-size: 1.05rem !important;
+  line-height: 1 !important;
+  margin: 0 1px !important;
+}
+
+#goldenBootTable .goals,
+#goldenBootTable .games {
+  font-weight: 1000 !important;
+}
+
+#goldenBootTable .goals { color: var(--gold) !important; }
+
+@media (max-width: 700px) {
+  .table-wrap { overflow-x: visible !important; }
+
+  #goldenBootTable {
+    font-size: .88rem !important;
+  }
+
+  #goldenBootTable th {
+    font-size: .62rem !important;
+    letter-spacing: .02em !important;
+  }
+
+  #goldenBootTable th,
+  #goldenBootTable td {
+    padding: 7px 4px !important;
+  }
+
+  #goldenBootTable th:nth-child(1),
+  #goldenBootTable td:nth-child(1) {
+    width: var(--gb-mobile-rank) !important;
+    min-width: var(--gb-mobile-rank) !important;
+    max-width: var(--gb-mobile-rank) !important;
+  }
+
+  #goldenBootTable th:nth-child(2),
+  #goldenBootTable td:nth-child(2) {
+    width: var(--gb-mobile-player) !important;
+    min-width: var(--gb-mobile-player) !important;
+    max-width: var(--gb-mobile-player) !important;
+  }
+
+  #goldenBootTable th:nth-child(3),
+  #goldenBootTable td:nth-child(3) {
+    width: var(--gb-mobile-teams) !important;
+    min-width: var(--gb-mobile-teams) !important;
+    max-width: var(--gb-mobile-teams) !important;
+  }
+
+  #goldenBootTable th:nth-child(4),
+  #goldenBootTable td:nth-child(4),
+  #goldenBootTable th:nth-child(5),
+  #goldenBootTable td:nth-child(5) {
+    width: var(--gb-mobile-score) !important;
+    min-width: var(--gb-mobile-score) !important;
+    max-width: var(--gb-mobile-score) !important;
+  }
+
+  #goldenBootTable .gb-flag {
+    font-size: .95rem !important;
+    margin: 0 1px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    --gb-mobile-rank: 30px;
+    --gb-mobile-player: 94px;
+    --gb-mobile-teams: 78px;
+    --gb-mobile-score: 34px;
+  }
+
+  #goldenBootTable { font-size: .82rem !important; }
+  #goldenBootTable .gb-flag { font-size: .88rem !important; margin: 0 !important; }
+}

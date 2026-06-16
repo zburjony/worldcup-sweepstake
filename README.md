@@ -53,3 +53,18 @@ Edit `.github/workflows/update-results.yml` and adjust the cron lines. GitHub cr
 ## v4 update
 - GitHub Actions now runs hourly.
 - Golden Boot table is mobile-friendly: no G/G column and teams show as flag + three-letter code.
+
+## v11 final Golden Boot mobile tuning
+The Golden Boot table is back to five columns: `# | Player | Teams | ⚽ | GP`.
+Flags are in their own Teams column.
+
+To tweak mobile widths, edit `styles.css` and search for:
+
+```css
+--gb-mobile-rank
+--gb-mobile-player
+--gb-mobile-teams
+--gb-mobile-score
+```
+
+These control the mobile Golden Boot column widths.
