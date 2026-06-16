@@ -7,6 +7,7 @@ const points = (s) => (s.wins || 0) * 3 + (s.draws || 0);
 const statFor = (results, team) => results.teams[team.name] || { team: team.name, goalsFor: 0, goalsAgainst: 0, goalDifference: 0, gamesPlayed: 0, wins: 0, draws: 0, losses: 0 };
 const pill = (team) => `<span class="team-pill" title="${team.name}"><span class="flag">${team.flag || flagFor(team.name)}</span><span class="team-code">${codeFor(team.name)}</span><span class="team-full">${team.name}</span></span>`;
 const compactPill = (team) => `<span class="team-pill compact-only" title="${team.name}"><span class="flag">${team.flag || flagFor(team.name)}</span><span class="team-code">${codeFor(team.name)}</span></span>`;
+const flagOnly = (team) => `<span class="flag-only" title="${team.name} (${codeFor(team.name)})"><span class="flag">${team.flag || flagFor(team.name)}</span></span>`;
 const rankLabel = (i) => i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : String(i + 1);
 const pct = (n) => `${Math.round(n * 100)}%`;
 
@@ -118,7 +119,7 @@ function renderGoldenBoot(draw, results) {
     <tr>
       <td class="rank">${rankLabel(i)}</td>
       <td class="player">${p.player}</td>
-      <td class="teams-compact">${p.stats.teams.map(compactPill).join('')}</td>
+      <td class="teams-flags">${p.stats.teams.map(flagOnly).join('')}</td>
       <td class="num">${p.stats.goals}</td>
       <td class="num">${p.stats.games}</td>
     </tr>

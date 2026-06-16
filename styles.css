@@ -147,3 +147,44 @@ footer { color: var(--muted); max-width: 1180px; margin: 0 auto; padding: 0 20px
   #goldenBootTable .flag { min-width: 1em; }
   #drawTable th:nth-child(5), #drawTable td:nth-child(5) { display:none; }
 }
+
+
+/* v5 compact table/mobile fixes */
+.table-wrap { max-width: 100%; }
+#goldenBootTable {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 0 !important;
+}
+#goldenBootTable th, #goldenBootTable td {
+  padding: 8px 6px;
+}
+#goldenBootTable th:nth-child(1), #goldenBootTable td:nth-child(1) { width: 38px; }
+#goldenBootTable th:nth-child(2), #goldenBootTable td:nth-child(2) { width: auto; }
+#goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) { width: 86px; text-align: center; }
+#goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4) { width: 50px; text-align: right; }
+#goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) { width: 50px; text-align: right; }
+#goldenBootTable .player { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.teams-flags { white-space: nowrap; }
+.flag-only { display: inline-flex; justify-content: center; align-items: center; width: 1.38em; margin: 0 1px; font-size: 1.05rem; }
+
+@media (max-width: 560px) {
+  main, .hero, footer { max-width: 430px; margin-left: auto; margin-right: auto; }
+  .card, .status-card, .spotlight, .mini-card { width: 100%; }
+  #goldenBootTable { font-size: .88rem; }
+  #goldenBootTable th { font-size: .62rem; letter-spacing: .04em; }
+  #goldenBootTable th:nth-child(1), #goldenBootTable td:nth-child(1) { width: 34px; }
+  #goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) { width: 76px; max-width: 76px; }
+  #goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4),
+  #goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) { width: 42px; }
+  #goldenBootTable th, #goldenBootTable td { padding: 7px 4px; }
+  .flag-only { width: 1.18em; font-size: .98rem; margin: 0; }
+}
+
+@media (max-width: 380px) {
+  #goldenBootTable { font-size: .82rem; }
+  #goldenBootTable th:nth-child(3), #goldenBootTable td:nth-child(3) { width: 68px; }
+  #goldenBootTable th:nth-child(4), #goldenBootTable td:nth-child(4),
+  #goldenBootTable th:nth-child(5), #goldenBootTable td:nth-child(5) { width: 36px; }
+  .flag-only { width: 1.05em; font-size: .92rem; }
+}
