@@ -1,711 +1,429 @@
 {
-  "generatedAt": "2026-06-16T03:30:15.123Z",
-  "players": [
+  "generatedAt": "2026-06-16T03:50:32.070Z",
+  "source": "fallback-in-repo",
+  "sourceOk": false,
+  "matches": [
     {
-      "name": "Johnny",
-      "t1": "MAR",
-      "t2": "PAR",
-      "t3": "CUW"
+      "id": "fallback-1",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "A"
     },
     {
-      "name": "Antoinette",
-      "t1": "NED",
-      "t2": "SEN",
-      "t3": "KSA"
+      "id": "fallback-2",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czechia",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "A"
     },
     {
-      "name": "Alex",
-      "t1": "CRO",
-      "t2": "COD",
-      "t3": "NZL"
+      "id": "fallback-3",
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia & Herzegovina",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "B"
     },
     {
-      "name": "Mena",
-      "t1": "POR",
-      "t2": "PAN",
-      "t3": "IRQ"
+      "id": "fallback-4",
+      "homeTeam": "United States",
+      "awayTeam": "Paraguay",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "D"
     },
     {
-      "name": "Santi",
-      "t1": "COL",
-      "t2": "AUS",
-      "t3": "KSA"
+      "id": "fallback-5",
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "B"
     },
     {
-      "name": "Yasmeena",
-      "t1": "FRA",
-      "t2": "AUT",
-      "t3": "BIH"
+      "id": "fallback-6",
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "C"
     },
     {
-      "name": "Ricky",
-      "t1": "NED",
-      "t2": "SCO",
-      "t3": "GHA"
+      "id": "fallback-7",
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "C"
     },
     {
-      "name": "Ziad",
-      "t1": "ENG",
-      "t2": "MEX",
-      "t3": "UZB"
+      "id": "fallback-8",
+      "homeTeam": "Australia",
+      "awayTeam": "Türkiye",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "D"
     },
     {
-      "name": "Emma",
-      "t1": "ARG",
-      "t2": "KOR",
-      "t3": "JOR"
+      "id": "fallback-9",
+      "homeTeam": "Germany",
+      "awayTeam": "Curaçao",
+      "homeGoals": 7,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "E"
     },
     {
-      "name": "Jazzy",
-      "t1": "ENG",
-      "t2": "TUN",
-      "t3": "RSA"
+      "id": "fallback-10",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "F"
     },
     {
-      "name": "Ruby",
-      "t1": "GER",
-      "t2": "DZA",
-      "t3": "HTI"
+      "id": "fallback-11",
+      "homeTeam": "Côte d’Ivoire",
+      "awayTeam": "Ecuador",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "E"
     },
     {
-      "name": "Teigan",
-      "t1": "CRO",
-      "t2": "JPN",
-      "t3": "GHA"
+      "id": "fallback-12",
+      "homeTeam": "Sweden",
+      "awayTeam": "Tunisia",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "F"
     },
     {
-      "name": "Nadine",
-      "t1": "ARG",
-      "t2": "NOR",
-      "t3": "CPV"
+      "id": "fallback-13",
+      "homeTeam": "Spain",
+      "awayTeam": "Cape Verde",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "H"
     },
     {
-      "name": "Vako",
-      "t1": "BEL",
-      "t2": "TUR",
-      "t3": "RSA"
-    },
-    {
-      "name": "Andre",
-      "t1": "BRA",
-      "t2": "CZE",
-      "t3": "QAT"
-    },
-    {
-      "name": "Fernando",
-      "t1": "COL",
-      "t2": "USA",
-      "t3": "JOR"
-    },
-    {
-      "name": "Jenny",
-      "t1": "MAR",
-      "t2": "ECU",
-      "t3": "NZL"
-    },
-    {
-      "name": "Sophia",
-      "t1": "GER",
-      "t2": "SUI",
-      "t3": "QAT"
-    },
-    {
-      "name": "Ollie",
-      "t1": "ESP",
-      "t2": "SWE",
-      "t3": "BIH"
-    },
-    {
-      "name": "David",
-      "t1": "BRA",
-      "t2": "EGY",
-      "t3": "IRQ"
-    },
-    {
-      "name": "Filipe",
-      "t1": "POR",
-      "t2": "URU",
-      "t3": "HTI"
-    },
-    {
-      "name": "Ramy",
-      "t1": "BEL",
-      "t2": "CIV",
-      "t3": "CUW"
-    },
-    {
-      "name": "Ghada",
-      "t1": "FRA",
-      "t2": "IRN",
-      "t3": "UZB"
-    },
-    {
-      "name": "Harper",
-      "t1": "ESP",
-      "t2": "CAN",
-      "t3": "CPV"
+      "id": "fallback-14",
+      "homeTeam": "Belgium",
+      "awayTeam": "Egypt",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FINISHED",
+      "utcDate": null,
+      "group": "G"
     }
   ],
   "teams": {
-    "ARG": {
-      "name": "Argentina",
-      "flag": "🇦🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "J"
-    },
-    "ENG": {
-      "name": "England",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "L"
-    },
-    "ESP": {
-      "name": "Spain",
-      "flag": "🇪🇸",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 1,
-      "group": "H"
-    },
-    "FRA": {
-      "name": "France",
-      "flag": "🇫🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "I"
-    },
-    "BEL": {
-      "name": "Belgium",
-      "flag": "🇧🇪",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "G"
-    },
-    "BRA": {
-      "name": "Brazil",
-      "flag": "🇧🇷",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "C"
-    },
-    "GER": {
-      "name": "Germany",
-      "flag": "🇩🇪",
-      "goalsFor": 7,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
-      "group": "E"
-    },
-    "CRO": {
-      "name": "Croatia",
-      "flag": "🇭🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "L"
-    },
-    "COL": {
-      "name": "Colombia",
-      "flag": "🇨🇴",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "K"
-    },
-    "MAR": {
-      "name": "Morocco",
-      "flag": "🇲🇦",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "C"
-    },
-    "NED": {
-      "name": "Netherlands",
-      "flag": "🇳🇱",
+    "Mexico": {
+      "team": "Mexico",
       "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
+    },
+    "South Africa": {
+      "team": "South Africa",
+      "goalsFor": 0,
       "goalsAgainst": 2,
-      "played": 1,
-      "points": 1,
-      "group": "F"
+      "goalDifference": -2,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "POR": {
-      "name": "Portugal",
-      "flag": "🇵🇹",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "K"
-    },
-    "MEX": {
-      "name": "Mexico",
-      "flag": "🇲🇽",
+    "South Korea": {
+      "team": "South Korea",
       "goalsFor": 2,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 3,
-      "group": "A"
+      "goalsAgainst": 1,
+      "goalDifference": 1,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
     },
-    "SEN": {
-      "name": "Senegal",
-      "flag": "🇸🇳",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "I"
+    "Czechia": {
+      "team": "Czechia",
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "URU": {
-      "name": "Uruguay",
-      "flag": "🇺🇾",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "H"
+    "Canada": {
+      "team": "Canada",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
     },
-    "USA": {
-      "name": "United States",
-      "flag": "🇺🇸",
+    "Bosnia & Herzegovina": {
+      "team": "Bosnia & Herzegovina",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "United States": {
+      "team": "United States",
       "goalsFor": 4,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
-      "group": "D"
+      "goalDifference": 3,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
     },
-    "JPN": {
-      "name": "Japan",
-      "flag": "🇯🇵",
-      "goalsFor": 2,
-      "goalsAgainst": 2,
-      "played": 1,
-      "points": 1,
-      "group": "F"
-    },
-    "SUI": {
-      "name": "Switzerland",
-      "flag": "🇨🇭",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "B"
-    },
-    "IRN": {
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "G"
-    },
-    "TUR": {
-      "name": "Türkiye",
-      "flag": "🇹🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "played": 1,
-      "points": 0,
-      "group": "D"
-    },
-    "ECU": {
-      "name": "Ecuador",
-      "flag": "🇪🇨",
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 0,
-      "group": "E"
-    },
-    "AUT": {
-      "name": "Austria",
-      "flag": "🇦🇹",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "J"
-    },
-    "KOR": {
-      "name": "South Korea",
-      "flag": "🇰🇷",
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
-      "group": "A"
-    },
-    "AUS": {
-      "name": "Australia",
-      "flag": "🇦🇺",
-      "goalsFor": 2,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 3,
-      "group": "D"
-    },
-    "DZA": {
-      "name": "Algeria",
-      "flag": "🇩🇿",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "J"
-    },
-    "EGY": {
-      "name": "Egypt",
-      "flag": "🇪🇬",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "G"
-    },
-    "CAN": {
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "B"
-    },
-    "NOR": {
-      "name": "Norway",
-      "flag": "🇳🇴",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "I"
-    },
-    "CIV": {
-      "name": "Côte d’Ivoire",
-      "flag": "🇨🇮",
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 3,
-      "group": "E"
-    },
-    "PAN": {
-      "name": "Panama",
-      "flag": "🇵🇦",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "L"
-    },
-    "SWE": {
-      "name": "Sweden",
-      "flag": "🇸🇪",
-      "goalsFor": 5,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
-      "group": "F"
-    },
-    "CZE": {
-      "name": "Czechia",
-      "flag": "🇨🇿",
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "played": 1,
-      "points": 0,
-      "group": "A"
-    },
-    "PAR": {
-      "name": "Paraguay",
-      "flag": "🇵🇾",
+    "Paraguay": {
+      "team": "Paraguay",
       "goalsFor": 1,
       "goalsAgainst": 4,
-      "played": 1,
-      "points": 0,
-      "group": "D"
+      "goalDifference": -3,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "SCO": {
-      "name": "Scotland",
-      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 3,
-      "group": "C"
-    },
-    "COD": {
-      "name": "DR Congo",
-      "flag": "🇨🇩",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "K"
-    },
-    "TUN": {
-      "name": "Tunisia",
-      "flag": "🇹🇳",
-      "goalsFor": 1,
-      "goalsAgainst": 5,
-      "played": 1,
-      "points": 0,
-      "group": "F"
-    },
-    "UZB": {
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "K"
-    },
-    "IRQ": {
-      "name": "Iraq",
-      "flag": "🇮🇶",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "I"
-    },
-    "QAT": {
-      "name": "Qatar",
-      "flag": "🇶🇦",
+    "Qatar": {
+      "team": "Qatar",
       "goalsFor": 1,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "B"
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
     },
-    "RSA": {
-      "name": "South Africa",
-      "flag": "🇿🇦",
+    "Switzerland": {
+      "team": "Switzerland",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Brazil": {
+      "team": "Brazil",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Morocco": {
+      "team": "Morocco",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Haiti": {
+      "team": "Haiti",
+      "goalsFor": 0,
+      "goalsAgainst": 1,
+      "goalDifference": -1,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
+    },
+    "Scotland": {
+      "team": "Scotland",
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
+    },
+    "Australia": {
+      "team": "Australia",
+      "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
+    },
+    "Türkiye": {
+      "team": "Türkiye",
       "goalsFor": 0,
       "goalsAgainst": 2,
-      "played": 1,
-      "points": 0,
-      "group": "A"
+      "goalDifference": -2,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "KSA": {
-      "name": "Saudi Arabia",
-      "flag": "🇸🇦",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "H"
-    },
-    "JOR": {
-      "name": "Jordan",
-      "flag": "🇯🇴",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "J"
-    },
-    "BIH": {
-      "name": "Bosnia & Herzegovina",
-      "flag": "🇧🇦",
-      "goalsFor": 1,
+    "Germany": {
+      "team": "Germany",
+      "goalsFor": 7,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
-      "group": "B"
+      "goalDifference": 6,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
     },
-    "CPV": {
-      "name": "Cape Verde",
-      "flag": "🇨🇻",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 1,
-      "group": "H"
-    },
-    "GHA": {
-      "name": "Ghana",
-      "flag": "🇬🇭",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "L"
-    },
-    "CUW": {
-      "name": "Curaçao",
-      "flag": "🇨🇼",
+    "Curaçao": {
+      "team": "Curaçao",
       "goalsFor": 1,
       "goalsAgainst": 7,
-      "played": 1,
-      "points": 0,
-      "group": "E"
+      "goalDifference": -6,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "HTI": {
-      "name": "Haiti",
-      "flag": "🇭🇹",
+    "Netherlands": {
+      "team": "Netherlands",
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Japan": {
+      "team": "Japan",
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Côte d’Ivoire": {
+      "team": "Côte d’Ivoire",
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
+    },
+    "Ecuador": {
+      "team": "Ecuador",
       "goalsFor": 0,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 0,
-      "group": "C"
+      "goalDifference": -1,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
     },
-    "NZL": {
-      "name": "New Zealand",
-      "flag": "🇳🇿",
+    "Sweden": {
+      "team": "Sweden",
+      "goalsFor": 5,
+      "goalsAgainst": 1,
+      "goalDifference": 4,
+      "gamesPlayed": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0
+    },
+    "Tunisia": {
+      "team": "Tunisia",
+      "goalsFor": 1,
+      "goalsAgainst": 5,
+      "goalDifference": -4,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1
+    },
+    "Spain": {
+      "team": "Spain",
       "goalsFor": 0,
       "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
-      "group": "G"
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Cape Verde": {
+      "team": "Cape Verde",
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Belgium": {
+      "team": "Belgium",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
+    },
+    "Egypt": {
+      "team": "Egypt",
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "gamesPlayed": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0
     }
-  },
-  "matches": [
-    {
-      "date": "2026-06-11",
-      "group": "A",
-      "home": "MEX",
-      "away": "RSA",
-      "homeGoals": 2,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-11",
-      "group": "A",
-      "home": "KOR",
-      "away": "CZE",
-      "homeGoals": 2,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-12",
-      "group": "B",
-      "home": "CAN",
-      "away": "BIH",
-      "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-12",
-      "group": "D",
-      "home": "USA",
-      "away": "PAR",
-      "homeGoals": 4,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-13",
-      "group": "B",
-      "home": "QAT",
-      "away": "SUI",
-      "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-13",
-      "group": "C",
-      "home": "BRA",
-      "away": "MAR",
-      "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-13",
-      "group": "C",
-      "home": "HTI",
-      "away": "SCO",
-      "homeGoals": 0,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "group": "D",
-      "home": "AUS",
-      "away": "TUR",
-      "homeGoals": 2,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "group": "E",
-      "home": "GER",
-      "away": "CUW",
-      "homeGoals": 7,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "group": "F",
-      "home": "NED",
-      "away": "JPN",
-      "homeGoals": 2,
-      "awayGoals": 2,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "group": "E",
-      "home": "CIV",
-      "away": "ECU",
-      "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "group": "F",
-      "home": "SWE",
-      "away": "TUN",
-      "homeGoals": 5,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-15",
-      "group": "H",
-      "home": "ESP",
-      "away": "CPV",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-15",
-      "group": "G",
-      "home": "BEL",
-      "away": "EGY",
-      "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "FT"
-    }
-  ]
+  }
 }
