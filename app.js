@@ -116,11 +116,12 @@ function renderBanter(draw, results) {
 function renderGoldenBoot(draw, results) {
   const rows = goldenRows(draw, results);
   byId('goldenBootTable').querySelector('tbody').innerHTML = rows.map((p, i) => {
-    const flags = p.stats.teams.map(t => `<span class="inline-flag" title="${t.name} (${codeFor(t.name)})">${t.flag || flagFor(t.name)}</span>`).join('');
+    const flags = p.stats.teams.map(t => `<span class="gb-flag" title="${t.name} (${codeFor(t.name)})">${t.flag || flagFor(t.name)}</span>`).join(' ');
     return `
       <tr>
         <td class="rank">${rankLabel(i)}</td>
-        <td class="player"><span class="player-name">${p.player}</span><span class="inline-flags">${flags}</span></td>
+        <td class="player">${p.player}</td>
+        <td class="teams">${flags}</td>
         <td class="num goals">${p.stats.goals}</td>
         <td class="num games">${p.stats.games}</td>
       </tr>
