@@ -158,7 +158,7 @@
     },
     "ENG": {
       "name": "England",
-      "flag": "🏴",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "goalsFor": 0,
       "goalsAgainst": 0,
       "played": 0,
@@ -446,7 +446,7 @@
     },
     "SCO": {
       "name": "Scotland",
-      "flag": "🏴",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "goalsFor": 1,
       "goalsAgainst": 0,
       "played": 1,
