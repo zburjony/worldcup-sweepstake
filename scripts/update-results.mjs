@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { generateBanter } from './generate-banter.mjs';
 
 const API_URL = process.env.WORLDCUP_API_URL || 'https://worldcup26.ir/get/games';
 const OUT = new URL('../data/results.json', import.meta.url);
@@ -210,13 +211,17 @@ async function main() {
   const matches = sourceOk ? mergeMatches(apiMatches) : fallbackMatches;
   if (!sourceOk) source = 'fallback-in-repo';
 
+  const updatedTeams = buildTeams(current.teams || {}, matches);
+  const generatedAt = new Date().toISOString();
+
   const output = {
     ...current,
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     source,
     sourceOk,
-    teams: buildTeams(current.teams || {}, matches),
-    matches
+    teams: updatedTeams,
+    matches,
+    banter: generateBanter(current.players || [], updatedTeams, new Date(generatedAt))
   };
 
   await fs.writeFile(OUT, JSON.stringify(output, null, 2) + '\n');

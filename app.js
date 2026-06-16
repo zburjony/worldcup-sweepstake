@@ -74,12 +74,19 @@ function renderDraw(players, teams) {
   `).join('');
 }
 
-function renderBanter(rows, teams) {
+function renderBanter(rows, teams, banterLines = []) {
+  if (Array.isArray(banterLines) && banterLines.length) {
+    byId('banter').innerHTML = banterLines
+      .map(line => `<div class="banter-item">${line}</div>`)
+      .join('');
+    return;
+  }
+
   const leader = rows[0];
   const best = leader.codes.map(c => ({ code:c, goals:gf(teams[c]) })).sort((a,b)=>b.goals-a.goals)[0];
   byId('banter').innerHTML = `
     <div class="banter-item">${teamCell(best.code, teams)} is currently doing the heavy lifting for ${leader.name}.</div>
-    <div class="banter-item">If your teams have not scored yet, stay calm. Panic is scheduled for the knockout rounds.</div>
+    <div class="banter-item">${leader.name} leads the Golden Boot race with ${leader.goals} goals from ${leader.games} games.</div>
     <div class="banter-item">All complaints about the draw remain formally ignored.</div>
   `;
 }
@@ -110,7 +117,7 @@ async function main() {
   renderGolden(rows, teams);
   renderAverage(data.players, teams);
   renderDraw(data.players, teams);
-  renderBanter(rows, teams);
+  renderBanter(rows, teams, data.banter);
   renderScores(data.matches || [], teams);
   renderGroups(teams);
 }
