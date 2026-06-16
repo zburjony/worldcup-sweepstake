@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:30:15.123Z",
+  "generatedAt": "2026-06-16T04:18:28.554Z",
   "players": [
     {
       "name": "Johnny",
@@ -582,7 +582,8 @@
   },
   "matches": [
     {
-      "date": "2026-06-11",
+      "id": "fallback-1",
+      "date": null,
       "group": "A",
       "home": "MEX",
       "away": "RSA",
@@ -591,7 +592,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-11",
+      "id": "fallback-2",
+      "date": null,
       "group": "A",
       "home": "KOR",
       "away": "CZE",
@@ -600,7 +602,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-12",
+      "id": "fallback-3",
+      "date": null,
       "group": "B",
       "home": "CAN",
       "away": "BIH",
@@ -609,7 +612,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-12",
+      "id": "fallback-4",
+      "date": null,
       "group": "D",
       "home": "USA",
       "away": "PAR",
@@ -618,7 +622,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-13",
+      "id": "fallback-5",
+      "date": null,
       "group": "B",
       "home": "QAT",
       "away": "SUI",
@@ -627,7 +632,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-13",
+      "id": "fallback-6",
+      "date": null,
       "group": "C",
       "home": "BRA",
       "away": "MAR",
@@ -636,7 +642,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-13",
+      "id": "fallback-7",
+      "date": null,
       "group": "C",
       "home": "HTI",
       "away": "SCO",
@@ -645,7 +652,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-14",
+      "id": "fallback-8",
+      "date": null,
       "group": "D",
       "home": "AUS",
       "away": "TUR",
@@ -654,7 +662,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-14",
+      "id": "fallback-9",
+      "date": null,
       "group": "E",
       "home": "GER",
       "away": "CUW",
@@ -663,7 +672,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-14",
+      "id": "fallback-10",
+      "date": null,
       "group": "F",
       "home": "NED",
       "away": "JPN",
@@ -672,7 +682,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-14",
+      "id": "fallback-11",
+      "date": null,
       "group": "E",
       "home": "CIV",
       "away": "ECU",
@@ -681,7 +692,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-14",
+      "id": "fallback-12",
+      "date": null,
       "group": "F",
       "home": "SWE",
       "away": "TUN",
@@ -690,7 +702,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-15",
+      "id": "fallback-13",
+      "date": null,
       "group": "H",
       "home": "ESP",
       "away": "CPV",
@@ -699,7 +712,8 @@
       "status": "FT"
     },
     {
-      "date": "2026-06-15",
+      "id": "fallback-14",
+      "date": null,
       "group": "G",
       "home": "BEL",
       "away": "EGY",
@@ -707,5 +721,7 @@
       "awayGoals": 1,
       "status": "FT"
     }
-  ]
+  ],
+  "source": "fallback-in-repo",
+  "sourceOk": false
 }

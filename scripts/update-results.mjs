@@ -3,6 +3,14 @@ import fs from 'node:fs/promises';
 const API_URL = process.env.WORLDCUP_API_URL || 'https://worldcup26.ir/get/games';
 const OUT = new URL('../data/results.json', import.meta.url);
 
+const codeToName = {
+  ARG:'Argentina', ESP:'Spain', FRA:'France', ENG:'England', POR:'Portugal', BRA:'Brazil', MAR:'Morocco', NED:'Netherlands', BEL:'Belgium', GER:'Germany', CRO:'Croatia', COL:'Colombia',
+  MEX:'Mexico', SEN:'Senegal', URU:'Uruguay', USA:'United States', JPN:'Japan', SUI:'Switzerland', IRI:'Iran', IRN:'Iran', TUR:'Türkiye', ECU:'Ecuador', AUT:'Austria', KOR:'South Korea', AUS:'Australia', DZA:'Algeria', EGY:'Egypt', CAN:'Canada', NOR:'Norway', CIV:'Côte d’Ivoire', PAR:'Paraguay', SWE:'Sweden', CZE:'Czechia', SCO:'Scotland', COD:'DR Congo', TUN:'Tunisia',
+  UZB:'Uzbekistan', IRQ:'Iraq', QAT:'Qatar', RSA:'South Africa', KSA:'Saudi Arabia', JOR:'Jordan', BIH:'Bosnia & Herzegovina', CPV:'Cape Verde', GHA:'Ghana', CUW:'Curaçao', HTI:'Haiti', NZL:'New Zealand'
+};
+
+const nameToCode = Object.fromEntries(Object.entries(codeToName).map(([code, name]) => [name, code === 'IRI' ? 'IRN' : code]));
+
 const teamAliases = {
   'Czech Republic': 'Czechia',
   'CZ Czech Republic': 'Czechia',
@@ -14,7 +22,6 @@ const teamAliases = {
   'Côte dIvoire': 'Côte d’Ivoire',
   'Congo DR': 'DR Congo',
   'Congo, DR': 'DR Congo',
-  'DR Congo': 'DR Congo',
   'CD Congo DR': 'DR Congo',
   'Bosnia and Herzegovina': 'Bosnia & Herzegovina',
   'Bosnia & Herzegovina': 'Bosnia & Herzegovina',
@@ -27,9 +34,10 @@ const teamAliases = {
   'Saudi Arabia': 'Saudi Arabia',
   'Cape Verde': 'Cape Verde',
   'New Zealand': 'New Zealand',
-  'South Africa': 'South Africa'
+  'South Africa': 'South Africa',
+  'Iran': 'Iran',
+  'IR Iran': 'Iran'
 };
-
 
 const groupLookup = {
   A: ['Mexico', 'South Africa', 'South Korea', 'Czechia'],
@@ -45,27 +53,23 @@ const groupLookup = {
   K: ['Portugal', 'DR Congo', 'Uzbekistan', 'Colombia'],
   L: ['England', 'Croatia', 'Ghana', 'Panama']
 };
-function groupForTeam(team) {
-  return Object.entries(groupLookup).find(([, teams]) => teams.includes(team))?.[0] || null;
-}
-function groupForMatch(homeTeam, awayTeam) {
-  const homeGroup = groupForTeam(homeTeam);
-  const awayGroup = groupForTeam(awayTeam);
-  return homeGroup && homeGroup === awayGroup ? homeGroup : (homeGroup || awayGroup);
-}
-
-const codeToName = {
-  ARG:'Argentina', ESP:'Spain', FRA:'France', ENG:'England', POR:'Portugal', BRA:'Brazil', MAR:'Morocco', NED:'Netherlands', BEL:'Belgium', GER:'Germany', CRO:'Croatia', COL:'Colombia',
-  MEX:'Mexico', SEN:'Senegal', URU:'Uruguay', USA:'United States', JPN:'Japan', SUI:'Switzerland', IRI:'Iran', TUR:'Türkiye', ECU:'Ecuador', AUT:'Austria', KOR:'South Korea', AUS:'Australia', DZA:'Algeria', EGY:'Egypt', CAN:'Canada', NOR:'Norway', CIV:'Côte d’Ivoire', PAR:'Paraguay', SWE:'Sweden', CZE:'Czechia', SCO:'Scotland', COD:'DR Congo', TUN:'Tunisia',
-  UZB:'Uzbekistan', IRQ:'Iraq', QAT:'Qatar', RSA:'South Africa', KSA:'Saudi Arabia', JOR:'Jordan', BIH:'Bosnia & Herzegovina', CPV:'Cape Verde', GHA:'Ghana', CUW:'Curaçao', HTI:'Haiti', NZL:'New Zealand'
-};
 
 function normaliseName(value) {
   if (!value) return null;
-  let s = String(value).trim();
-  s = s.replace(/\s+/g, ' ');
-  if (codeToName[s.toUpperCase()]) return codeToName[s.toUpperCase()];
+  let s = String(value).trim().replace(/\s+/g, ' ');
+  const upper = s.toUpperCase();
+  if (codeToName[upper]) return codeToName[upper];
   return teamAliases[s] || s;
+}
+
+function codeForName(name) {
+  const n = normaliseName(name);
+  return nameToCode[n] || null;
+}
+
+function groupForCode(code) {
+  const name = codeToName[code];
+  return Object.entries(groupLookup).find(([, teams]) => teams.includes(name))?.[0] || null;
 }
 
 function getFirst(obj, keys) {
@@ -84,6 +88,8 @@ function getTeamName(side) {
 function parseMatch(m) {
   const homeTeam = getTeamName(getFirst(m, ['homeTeam','home','team1','home_team','homeTeamName'])) || normaliseName(getFirst(m, ['home_team_en','home_name','homeTeamName','homeTeamCode','homeCode']));
   const awayTeam = getTeamName(getFirst(m, ['awayTeam','away','team2','away_team','awayTeamName'])) || normaliseName(getFirst(m, ['away_team_en','away_name','awayTeamName','awayTeamCode','awayCode']));
+  const home = codeForName(homeTeam);
+  const away = codeForName(awayTeam);
 
   const scoreObj = getFirst(m, ['score','scores','result']) || {};
   const full = scoreObj.fullTime || scoreObj.fulltime || scoreObj.ft || scoreObj.regularTime || scoreObj;
@@ -93,73 +99,106 @@ function parseMatch(m) {
   const rawStatus = String(getFirst(m, ['status','matchStatus','state']) || '').toLowerCase();
   const finished = ['finished','complete','completed','ft','full_time','full-time'].some(x => rawStatus.includes(x)) || (Number.isFinite(homeGoals) && Number.isFinite(awayGoals) && rawStatus !== 'scheduled');
 
-  if (!homeTeam || !awayTeam || !finished || !Number.isFinite(homeGoals) || !Number.isFinite(awayGoals)) return null;
+  if (!home || !away || !finished || !Number.isFinite(homeGoals) || !Number.isFinite(awayGoals)) return null;
   return {
-    id: String(getFirst(m, ['id','game_id','match_id','fixture_id']) || `${homeTeam}-${awayTeam}`),
-    homeTeam,
-    awayTeam,
+    id: String(getFirst(m, ['id','game_id','match_id','fixture_id']) || `${home}-${away}`),
+    date: String(getFirst(m, ['date','utcDate','datetime','start_time','kickoff']) || '').slice(0, 10) || null,
+    group: groupForCode(home) || groupForCode(away),
+    home,
+    away,
     homeGoals,
     awayGoals,
-    status: 'FINISHED',
-    utcDate: getFirst(m, ['utcDate','date','datetime','start_time','kickoff']) || null,
-    group: getFirst(m, ['group','stage','matchday']) || groupForMatch(homeTeam, awayTeam)
+    status: 'FT'
   };
 }
 
 const fallbackMatches = [
-  ['Mexico','South Africa',2,0], ['South Korea','Czechia',2,1], ['Canada','Bosnia & Herzegovina',1,1],
-  ['United States','Paraguay',4,1], ['Qatar','Switzerland',1,1], ['Brazil','Morocco',1,1],
-  ['Haiti','Scotland',0,1], ['Australia','Türkiye',2,0], ['Germany','Curaçao',7,1],
-  ['Netherlands','Japan',2,2], ['Côte d’Ivoire','Ecuador',1,0], ['Sweden','Tunisia',5,1],
-  ['Spain','Cape Verde',0,0], ['Belgium','Egypt',1,1]
-].map(([homeTeam, awayTeam, homeGoals, awayGoals], i) => ({ id: `fallback-${i+1}`, homeTeam, awayTeam, homeGoals, awayGoals, status:'FINISHED', utcDate:null, group: groupForMatch(homeTeam, awayTeam) }));
+  ['MEX','RSA',2,0], ['KOR','CZE',2,1], ['CAN','BIH',1,1],
+  ['USA','PAR',4,1], ['QAT','SUI',1,1], ['BRA','MAR',1,1],
+  ['HTI','SCO',0,1], ['AUS','TUR',2,0], ['GER','CUW',7,1],
+  ['NED','JPN',2,2], ['CIV','ECU',1,0], ['SWE','TUN',5,1],
+  ['ESP','CPV',0,0], ['BEL','EGY',1,1]
+].map(([home, away, homeGoals, awayGoals], i) => ({
+  id: `fallback-${i + 1}`,
+  date: null,
+  group: groupForCode(home) || groupForCode(away),
+  home,
+  away,
+  homeGoals,
+  awayGoals,
+  status: 'FT'
+}));
 
-async function main() {
-  let matches = [];
-  let source = API_URL;
-  let sourceOk = false;
+function blankTeam(existing, code) {
+  return {
+    ...existing,
+    name: existing?.name || codeToName[code] || code,
+    flag: existing?.flag || '',
+    group: existing?.group || groupForCode(code),
+    goalsFor: 0,
+    goalsAgainst: 0,
+    played: 0,
+    points: 0
+  };
+}
+
+function applyMatch(teams, match) {
+  teams[match.home] ||= blankTeam(null, match.home);
+  teams[match.away] ||= blankTeam(null, match.away);
+  const home = teams[match.home];
+  const away = teams[match.away];
+
+  home.goalsFor += match.homeGoals;
+  home.goalsAgainst += match.awayGoals;
+  home.played += 1;
+
+  away.goalsFor += match.awayGoals;
+  away.goalsAgainst += match.homeGoals;
+  away.played += 1;
+
+  if (match.homeGoals > match.awayGoals) home.points += 3;
+  else if (match.homeGoals < match.awayGoals) away.points += 3;
+  else { home.points += 1; away.points += 1; }
+}
+
+async function fetchMatches() {
   try {
-    const res = await fetch(API_URL, { headers: { 'accept': 'application/json' } });
+    const res = await fetch(API_URL, { headers: { accept: 'application/json' } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     const raw = Array.isArray(json) ? json : (json.data || json.games || json.matches || json.results || []);
-    matches = raw.map(parseMatch).filter(Boolean);
-    sourceOk = matches.length > 0;
+    const matches = raw.map(parseMatch).filter(Boolean);
+    if (matches.length) return { matches, source: API_URL, sourceOk: true };
+    throw new Error('No completed matches parsed');
   } catch (err) {
-    console.error(`Could not fetch ${API_URL}: ${err.message}`);
+    console.error(`Could not fetch or parse ${API_URL}: ${err.message}`);
+    return { matches: fallbackMatches, source: 'fallback-in-repo', sourceOk: false };
   }
+}
 
-  if (!sourceOk) {
-    matches = fallbackMatches;
-    source = 'fallback-in-repo';
-  }
+async function main() {
+  const existing = JSON.parse(await fs.readFile(OUT, 'utf8'));
+  const { matches, source, sourceOk } = await fetchMatches();
 
   const teams = {};
-  for (const m of matches) {
-    for (const team of [m.homeTeam, m.awayTeam]) {
-      teams[team] ||= { team, goalsFor: 0, goalsAgainst: 0, goalDifference: 0, gamesPlayed: 0, wins: 0, draws: 0, losses: 0 };
-    }
-    teams[m.homeTeam].goalsFor += m.homeGoals;
-    teams[m.homeTeam].goalsAgainst += m.awayGoals;
-    teams[m.homeTeam].gamesPlayed += 1;
-    teams[m.awayTeam].goalsFor += m.awayGoals;
-    teams[m.awayTeam].goalsAgainst += m.homeGoals;
-    teams[m.awayTeam].gamesPlayed += 1;
-    if (m.homeGoals > m.awayGoals) { teams[m.homeTeam].wins++; teams[m.awayTeam].losses++; }
-    else if (m.homeGoals < m.awayGoals) { teams[m.awayTeam].wins++; teams[m.homeTeam].losses++; }
-    else { teams[m.homeTeam].draws++; teams[m.awayTeam].draws++; }
+  for (const [code, team] of Object.entries(existing.teams || {})) teams[code] = blankTeam(team, code);
+  for (const code of Object.keys(codeToName)) {
+    if (code === 'IRI') continue;
+    teams[code] ||= blankTeam(null, code);
   }
-  for (const t of Object.values(teams)) t.goalDifference = t.goalsFor - t.goalsAgainst;
+  for (const match of matches) applyMatch(teams, match);
 
   const output = {
+    ...existing,
     generatedAt: new Date().toISOString(),
     source,
     sourceOk,
-    matches,
-    teams
+    teams,
+    matches
   };
+
   await fs.writeFile(OUT, JSON.stringify(output, null, 2) + '\n');
-  console.log(`Wrote ${matches.length} completed matches to data/results.json from ${source}`);
+  console.log(`Wrote ${matches.length} completed matches and preserved ${existing.players?.length || 0} players.`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
