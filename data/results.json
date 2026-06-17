@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T17:22:58.616Z",
+  "generatedAt": "2026-06-17T20:30:23.515Z",
   "players": [
     {
       "name": "Johnny",
@@ -249,10 +249,10 @@
     "POR": {
       "name": "Portugal",
       "flag": "🇵🇹",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 1,
       "group": "K"
     },
     "MEX": {
@@ -456,10 +456,10 @@
     "COD": {
       "name": "DR Congo",
       "flag": "🇨🇩",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 1,
       "group": "K"
     },
     "TUN": {
@@ -780,14 +780,24 @@
       "homeGoals": 3,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "21",
+      "date": "06/17/2026 12:00",
+      "group": "K",
+      "home": "POR",
+      "away": "COD",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
-  "source": "last result and fallback-in-repo",
-  "sourceOk": false,
+  "source": "https://worldcup26.ir/get/games",
+  "sourceOk": true,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
     "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
     "🇸🇪 SWE has quietly entered the “not so average” conversation for Ollie.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "This leaderboard is temporary, but the group chat abuse is forever."
   ]
 }
