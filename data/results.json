@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T10:05:37.723Z",
+  "generatedAt": "2026-06-17T14:00:16.276Z",
   "players": [
     {
       "name": "Johnny",
@@ -782,12 +782,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
-    "Ruby owes 🇩🇪 GER a thank-you card at this point.",
-    "Ollie's average team, 🇸🇪 SWE, is doing suspiciously well.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Sofia is top of the table and absolutely not being humble about it.",
+    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
+    "Ollie may need to apologise to 🇸🇪 SWE for calling them average.",
+    "This leaderboard is temporary, but the group chat abuse is forever."
   ]
 }
