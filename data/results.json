@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T00:06:14.497Z",
+  "generatedAt": "2026-06-17T05:16:07.027Z",
   "players": [
     {
       "name": "Johnny",
@@ -150,10 +150,10 @@
     "ARG": {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "goalsFor": 0,
+      "goalsFor": 3,
       "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "group": "J"
     },
     "ENG": {
@@ -367,8 +367,8 @@
       "name": "Algeria",
       "flag": "🇩🇿",
       "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
+      "goalsAgainst": 3,
+      "played": 1,
       "points": 0,
       "group": "J"
     },
@@ -760,14 +760,24 @@
       "homeGoals": 1,
       "awayGoals": 4,
       "status": "FT"
+    },
+    {
+      "id": "19",
+      "date": "06/16/2026 20:00",
+      "group": "J",
+      "home": "ARG",
+      "away": "DZA",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is top of the table and absolutely not being humble about it.",
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
     "🇩🇪 GER is responsible for 100% of Ruby's goals. That is not teamwork, that is outsourcing.",
-    "Fernando has a dangerous goals-per-game situation developing.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Fernando is making every game count and making everyone else nervous.",
+    "All complaints about the draw remain formally ignored."
   ]
 }
