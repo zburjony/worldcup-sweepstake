@@ -208,8 +208,11 @@ async function main() {
     console.error(`Could not fetch/parse ${API_URL}: ${err.message}`);
   }
 
-  const matches = sourceOk ? mergeMatches(apiMatches) : fallbackMatches;
-  if (!sourceOk) source = 'fallback-in-repo';
+  const matches = sourceOk
+    ? mergeMatches(apiMatches)
+    : (current.matches || fallbackMatches);
+  
+  if (!sourceOk) source = 'last result and fallback-in-repo';
 
   const updatedTeams = buildTeams(current.teams || {}, matches);
   const generatedAt = new Date().toISOString();
