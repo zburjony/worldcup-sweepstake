@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T05:16:07.027Z",
+  "generatedAt": "2026-06-17T10:05:37.723Z",
   "players": [
     {
       "name": "Johnny",
@@ -339,10 +339,10 @@
     "AUT": {
       "name": "Austria",
       "flag": "🇦🇹",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 3,
       "group": "J"
     },
     "KOR": {
@@ -519,9 +519,9 @@
     "JOR": {
       "name": "Jordan",
       "flag": "🇯🇴",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
+      "played": 1,
       "points": 0,
       "group": "J"
     },
@@ -770,14 +770,24 @@
       "homeGoals": 3,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "20",
+      "date": "06/16/2026 21:00",
+      "group": "J",
+      "home": "AUT",
+      "away": "JOR",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
-    "🇩🇪 GER is responsible for 100% of Ruby's goals. That is not teamwork, that is outsourcing.",
-    "Fernando is making every game count and making everyone else nervous.",
-    "All complaints about the draw remain formally ignored."
+    "Sofia is currently pretending this was always part of the plan.",
+    "Ruby owes 🇩🇪 GER a thank-you card at this point.",
+    "Ollie's average team, 🇸🇪 SWE, is doing suspiciously well.",
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
