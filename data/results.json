@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T15:53:00.872Z",
+  "generatedAt": "2026-06-18T18:35:58.961Z",
   "players": [
     {
       "name": "Johnny",
@@ -822,12 +822,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
-    "Sofia is top of the table and absolutely not being humble about it.",
-    "🇩🇪 GER is doing the heavy lifting while Ruby's other teams enjoy the view.",
-    "🇸🇪 SWE has quietly entered the “not so average” conversation for Ollie.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "Sofia is currently pretending this was always part of the plan.",
+    "🇩🇪 GER is carrying Ruby harder than airport luggage.",
+    "Ollie may need to apologise to 🇸🇪 SWE for calling them average.",
+    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
   ]
 }
