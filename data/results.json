@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T01:40:42.547Z",
+  "generatedAt": "2026-06-18T07:05:43.696Z",
   "players": [
     {
       "name": "Johnny",
@@ -222,10 +222,10 @@
     "COL": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
-      "points": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "played": 1,
+      "points": 3,
       "group": "K"
     },
     "MAR": {
@@ -474,9 +474,9 @@
     "UZB": {
       "name": "Uzbekistan",
       "flag": "🇺🇿",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 3,
+      "played": 1,
       "points": 0,
       "group": "K"
     },
@@ -810,13 +810,23 @@
       "homeGoals": 1,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "23",
+      "date": "06/17/2026 20:00",
+      "group": "K",
+      "home": "UZB",
+      "away": "COL",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia has moved into “checking the prize money” territory.",
-    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
+    "Sofia leads the Golden Boot race with 9 goals from 3 games.",
+    "🇩🇪 GER is carrying Ruby harder than airport luggage.",
     "Ollie's average team, 🇸🇪 SWE, is doing suspiciously well.",
     "This leaderboard is temporary, but the group chat abuse is forever."
   ]
