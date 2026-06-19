@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T20:03:07.292Z",
+  "generatedAt": "2026-06-19T21:22:26.622Z",
   "players": [
     {
       "name": "Johnny",
@@ -285,10 +285,10 @@
     "USA": {
       "name": "United States",
       "flag": "🇺🇸",
-      "goalsFor": 4,
+      "goalsFor": 6,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
+      "played": 2,
+      "points": 6,
       "group": "D"
     },
     "JPN": {
@@ -358,8 +358,8 @@
       "name": "Australia",
       "flag": "🇦🇺",
       "goalsFor": 2,
-      "goalsAgainst": 0,
-      "played": 1,
+      "goalsAgainst": 2,
+      "played": 2,
       "points": 3,
       "group": "D"
     },
@@ -860,14 +860,24 @@
       "homeGoals": 1,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "31",
+      "date": "06/19/2026 12:00",
+      "group": "D",
+      "home": "USA",
+      "away": "AUS",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is top of the table and absolutely not being humble about it.",
+    "Sofia leads the Golden Boot race with 13 goals from 5 games.",
     "🇨🇦 CAN is doing the heavy lifting while Harper's other teams enjoy the view.",
-    "🇲🇽 MEX is making the Average Team prize look very spicy for Ziad.",
-    "All complaints about the draw remain formally ignored."
+    "Fernando may need to apologise to 🇺🇸 USA for calling them average.",
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
