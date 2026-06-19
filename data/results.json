@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:28:29.595Z",
+  "generatedAt": "2026-06-19T00:00:14.738Z",
   "players": [
     {
       "name": "Johnny",
@@ -842,12 +842,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
-    "Sofia has moved into “checking the prize money” territory.",
+    "Sofia leads the Golden Boot race with 13 goals from 4 games.",
     "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
     "🇨🇭 SUI has quietly entered the “not so average” conversation for Sofia.",
-    "This leaderboard is temporary, but the group chat abuse is forever."
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
