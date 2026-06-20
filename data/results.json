@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T12:08:10.192Z",
+  "generatedAt": "2026-06-20T14:29:13.314Z",
   "players": [
     {
       "name": "Johnny",
@@ -902,12 +902,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
     "Sofia is currently pretending this was always part of the plan.",
-    "🇨🇦 CAN is doing the heavy lifting while Harper's other teams enjoy the view.",
-    "Fernando's average team, 🇺🇸 USA, is doing suspiciously well.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "🇨🇦 CAN is responsible for 100% of Harper's goals. That is not teamwork, that is outsourcing.",
+    "Fernando may need to apologise to 🇺🇸 USA for calling them average.",
+    "All complaints about the draw remain formally ignored."
   ]
 }
