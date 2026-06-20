@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:41:02.930Z",
+  "generatedAt": "2026-06-20T22:34:29.643Z",
   "players": [
     {
       "name": "Johnny",
@@ -204,10 +204,10 @@
     "GER": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "goalsFor": 7,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
+      "played": 2,
+      "points": 6,
       "group": "E"
     },
     "CRO": {
@@ -240,10 +240,10 @@
     "NED": {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "goalsFor": 2,
-      "goalsAgainst": 2,
-      "played": 1,
-      "points": 1,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "played": 2,
+      "points": 4,
       "group": "F"
     },
     "POR": {
@@ -402,9 +402,9 @@
     "CIV": {
       "name": "Côte d’Ivoire",
       "flag": "🇨🇮",
-      "goalsFor": 1,
-      "goalsAgainst": 0,
-      "played": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "played": 2,
       "points": 3,
       "group": "E"
     },
@@ -420,9 +420,9 @@
     "SWE": {
       "name": "Sweden",
       "flag": "🇸🇪",
-      "goalsFor": 5,
-      "goalsAgainst": 1,
-      "played": 1,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
+      "played": 2,
       "points": 3,
       "group": "F"
     },
@@ -900,14 +900,34 @@
       "homeGoals": 3,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "35",
+      "date": "06/20/2026 12:00",
+      "group": "F",
+      "home": "NED",
+      "away": "SWE",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "id": "33",
+      "date": "06/20/2026 16:00",
+      "group": "E",
+      "home": "GER",
+      "away": "CIV",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
-  "source": "last result and fallback-in-repo",
-  "sourceOk": false,
+  "source": "https://worldcup26.ir/get/games",
+  "sourceOk": true,
   "banter": [
-    "Sofia has moved into “checking the prize money” territory.",
-    "🇨🇦 CAN is responsible for 100% of Harper's goals. That is not teamwork, that is outsourcing.",
+    "Sofia leads the Golden Boot race with 15 goals from 6 games.",
+    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
     "🇺🇸 USA has quietly entered the “not so average” conversation for Fernando.",
-    "All complaints about the draw remain formally ignored."
+    "This leaderboard is temporary, but the group chat abuse is forever."
   ]
 }
