@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:14:10.769Z",
+  "generatedAt": "2026-06-20T00:20:17.348Z",
   "players": [
     {
       "name": "Johnny",
@@ -231,10 +231,10 @@
     "MAR": {
       "name": "Morocco",
       "flag": "🇲🇦",
-      "goalsFor": 1,
+      "goalsFor": 2,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
+      "played": 2,
+      "points": 4,
       "group": "C"
     },
     "NED": {
@@ -448,8 +448,8 @@
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "goalsFor": 1,
-      "goalsAgainst": 0,
-      "played": 1,
+      "goalsAgainst": 1,
+      "played": 2,
       "points": 3,
       "group": "C"
     },
@@ -870,14 +870,24 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "30",
+      "date": "06/19/2026 18:00",
+      "group": "C",
+      "home": "SCO",
+      "away": "MAR",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia leads the Golden Boot race with 13 goals from 5 games.",
-    "Harper owes 🇨🇦 CAN a thank-you card at this point.",
-    "Fernando's average team, 🇺🇸 USA, is doing suspiciously well.",
-    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
+    "Sofia is currently pretending this was always part of the plan.",
+    "🇨🇦 CAN has put Harper's sweepstake campaign on its back.",
+    "🇺🇸 USA is making the Average Team prize look very spicy for Fernando.",
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
