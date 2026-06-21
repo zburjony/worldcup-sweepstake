@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:51:26.633Z",
+  "generatedAt": "2026-06-21T20:01:35.989Z",
   "players": [
     {
       "name": "Johnny",
@@ -942,12 +942,12 @@
       "status": "FT"
     }
   ],
-  "source": "last result and fallback-in-repo",
-  "sourceOk": false,
+  "source": "https://worldcup26.ir/get/games",
+  "sourceOk": true,
   "banter": [
-    "Sofia has moved into “checking the prize money” territory.",
-    "Ruby owes 🇩🇪 GER a thank-you card at this point.",
-    "Fernando may need to apologise to 🇺🇸 USA for calling them average.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
+    "Fernando's average team, 🇺🇸 USA, is doing suspiciously well.",
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
