@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:01:35.989Z",
+  "generatedAt": "2026-06-21T21:41:46.146Z",
   "players": [
     {
       "name": "Johnny",
@@ -942,12 +942,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
     "Sofia has started acting like a tactical genius. We are monitoring the situation.",
-    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
-    "Fernando's average team, 🇺🇸 USA, is doing suspiciously well.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "🇩🇪 GER is responsible for 100% of Ruby's goals. That is not teamwork, that is outsourcing.",
+    "🇺🇸 USA is making the Average Team prize look very spicy for Fernando.",
+    "All complaints about the draw remain formally ignored."
   ]
 }
