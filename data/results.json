@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:44:17.631Z",
+  "generatedAt": "2026-06-22T05:30:17.279Z",
   "players": [
     {
       "name": "Johnny",
@@ -276,10 +276,10 @@
     "URU": {
       "name": "Uruguay",
       "flag": "🇺🇾",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 3,
+      "played": 2,
+      "points": 2,
       "group": "H"
     },
     "USA": {
@@ -375,10 +375,10 @@
     "EGY": {
       "name": "Egypt",
       "flag": "🇪🇬",
-      "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "played": 2,
+      "points": 4,
       "group": "G"
     },
     "CAN": {
@@ -537,10 +537,10 @@
     "CPV": {
       "name": "Cape Verde",
       "flag": "🇨🇻",
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "played": 1,
-      "points": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "played": 2,
+      "points": 2,
       "group": "H"
     },
     "GHA": {
@@ -573,9 +573,9 @@
     "NZL": {
       "name": "New Zealand",
       "flag": "🇳🇿",
-      "goalsFor": 2,
-      "goalsAgainst": 2,
-      "played": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "played": 2,
       "points": 1,
       "group": "G"
     }
@@ -960,14 +960,34 @@
       "homeGoals": 4,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "38",
+      "date": "06/21/2026 18:00",
+      "group": "G",
+      "home": "NZL",
+      "away": "EGY",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FT"
+    },
+    {
+      "id": "40",
+      "date": "06/21/2026 18:00",
+      "group": "H",
+      "home": "URU",
+      "away": "CPV",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
-    "Ruby owes 🇩🇪 GER a thank-you card at this point.",
-    "🇺🇸 USA has quietly entered the “not so average” conversation for Fernando.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Sofia is top of the table and absolutely not being humble about it.",
+    "🇩🇪 GER is doing the heavy lifting while Ruby's other teams enjoy the view.",
+    "Fernando may need to apologise to 🇺🇸 USA for calling them average.",
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
