@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:13:57.625Z",
+  "generatedAt": "2026-06-23T20:22:25.824Z",
   "players": [
     {
       "name": "Johnny",
@@ -249,10 +249,10 @@
     "POR": {
       "name": "Portugal",
       "flag": "🇵🇹",
-      "goalsFor": 1,
+      "goalsFor": 6,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 1,
+      "played": 2,
+      "points": 4,
       "group": "K"
     },
     "MEX": {
@@ -475,8 +475,8 @@
       "name": "Uzbekistan",
       "flag": "🇺🇿",
       "goalsFor": 1,
-      "goalsAgainst": 3,
-      "played": 1,
+      "goalsAgainst": 8,
+      "played": 2,
       "points": 0,
       "group": "K"
     },
@@ -1020,14 +1020,24 @@
       "homeGoals": 1,
       "awayGoals": 2,
       "status": "FT"
+    },
+    {
+      "id": "45",
+      "date": "06/23/2026 12:00",
+      "group": "K",
+      "home": "POR",
+      "away": "UZB",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia leads the Golden Boot race with 15 goals from 6 games.",
-    "🇩🇪 GER is carrying Ruby harder than airport luggage.",
+    "Sofia is top of the table and absolutely not being humble about it.",
+    "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
     "Nadine's average team, 🇳🇴 NOR, is doing suspiciously well.",
-    "This leaderboard is temporary, but the group chat abuse is forever."
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
