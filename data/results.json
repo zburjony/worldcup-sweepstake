@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:20:39.685Z",
+  "generatedAt": "2026-06-23T05:14:25.155Z",
   "players": [
     {
       "name": "Johnny",
@@ -177,10 +177,10 @@
     "FRA": {
       "name": "France",
       "flag": "🇫🇷",
-      "goalsFor": 3,
+      "goalsFor": 6,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
+      "played": 2,
+      "points": 6,
       "group": "I"
     },
     "BEL": {
@@ -267,9 +267,9 @@
     "SEN": {
       "name": "Senegal",
       "flag": "🇸🇳",
-      "goalsFor": 1,
-      "goalsAgainst": 3,
-      "played": 1,
+      "goalsFor": 3,
+      "goalsAgainst": 6,
+      "played": 2,
       "points": 0,
       "group": "I"
     },
@@ -366,10 +366,10 @@
     "DZA": {
       "name": "Algeria",
       "flag": "🇩🇿",
-      "goalsFor": 0,
-      "goalsAgainst": 3,
-      "played": 1,
-      "points": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 4,
+      "played": 2,
+      "points": 3,
       "group": "J"
     },
     "EGY": {
@@ -393,10 +393,10 @@
     "NOR": {
       "name": "Norway",
       "flag": "🇳🇴",
-      "goalsFor": 4,
-      "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "played": 2,
+      "points": 6,
       "group": "I"
     },
     "CIV": {
@@ -484,8 +484,8 @@
       "name": "Iraq",
       "flag": "🇮🇶",
       "goalsFor": 1,
-      "goalsAgainst": 4,
-      "played": 1,
+      "goalsAgainst": 7,
+      "played": 2,
       "points": 0,
       "group": "I"
     },
@@ -519,9 +519,9 @@
     "JOR": {
       "name": "Jordan",
       "flag": "🇯🇴",
-      "goalsFor": 1,
-      "goalsAgainst": 3,
-      "played": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 5,
+      "played": 2,
       "points": 0,
       "group": "J"
     },
@@ -990,14 +990,44 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "41",
+      "date": "06/22/2026 17:00",
+      "group": "I",
+      "home": "FRA",
+      "away": "IRQ",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "id": "42",
+      "date": "06/22/2026 20:00",
+      "group": "I",
+      "home": "NOR",
+      "away": "SEN",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
+      "id": "44",
+      "date": "06/22/2026 20:00",
+      "group": "J",
+      "home": "JOR",
+      "away": "DZA",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
     "Sofia has started acting like a tactical genius. We are monitoring the situation.",
-    "🇩🇪 GER is doing the heavy lifting while Ruby's other teams enjoy the view.",
-    "Fernando may need to apologise to 🇺🇸 USA for calling them average.",
+    "🇩🇪 GER has put Ruby's sweepstake campaign on its back.",
+    "Nadine may need to apologise to 🇳🇴 NOR for calling them average.",
     "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
