@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:10:29.996Z",
+  "generatedAt": "2026-06-24T04:34:41.121Z",
   "players": [
     {
       "name": "Johnny",
@@ -213,19 +213,19 @@
     "CRO": {
       "name": "Croatia",
       "flag": "🇭🇷",
-      "goalsFor": 2,
+      "goalsFor": 3,
       "goalsAgainst": 4,
-      "played": 1,
-      "points": 0,
+      "played": 2,
+      "points": 3,
       "group": "L"
     },
     "COL": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "goalsFor": 3,
+      "goalsFor": 4,
       "goalsAgainst": 1,
-      "played": 1,
-      "points": 3,
+      "played": 2,
+      "points": 6,
       "group": "K"
     },
     "MAR": {
@@ -412,8 +412,8 @@
       "name": "Panama",
       "flag": "🇵🇦",
       "goalsFor": 0,
-      "goalsAgainst": 1,
-      "played": 1,
+      "goalsAgainst": 2,
+      "played": 2,
       "points": 0,
       "group": "L"
     },
@@ -457,8 +457,8 @@
       "name": "DR Congo",
       "flag": "🇨🇩",
       "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 1,
+      "goalsAgainst": 2,
+      "played": 2,
       "points": 1,
       "group": "K"
     },
@@ -1040,14 +1040,34 @@
       "homeGoals": 0,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "46",
+      "date": "06/23/2026 19:00",
+      "group": "L",
+      "home": "PAN",
+      "away": "CRO",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "id": "47",
+      "date": "06/23/2026 20:00",
+      "group": "K",
+      "home": "COL",
+      "away": "COD",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
-    "Mena owes 🇵🇹 POR a thank-you card at this point.",
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "🇵🇹 POR is doing the heavy lifting while Mena's other teams enjoy the view.",
     "🇳🇴 NOR has quietly entered the “not so average” conversation for Nadine.",
-    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
+    "All complaints about the draw remain formally ignored."
   ]
 }
