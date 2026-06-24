@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:55:07.711Z",
+  "generatedAt": "2026-06-24T22:39:42.912Z",
   "players": [
     {
       "name": "Johnny",
@@ -303,10 +303,10 @@
     "SUI": {
       "name": "Switzerland",
       "flag": "🇨🇭",
-      "goalsFor": 5,
-      "goalsAgainst": 2,
-      "played": 2,
-      "points": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "played": 3,
+      "points": 7,
       "group": "B"
     },
     "IRN": {
@@ -384,9 +384,9 @@
     "CAN": {
       "name": "Canada",
       "flag": "🇨🇦",
-      "goalsFor": 7,
-      "goalsAgainst": 1,
-      "played": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 3,
+      "played": 3,
       "points": 4,
       "group": "B"
     },
@@ -492,9 +492,9 @@
     "QAT": {
       "name": "Qatar",
       "flag": "🇶🇦",
-      "goalsFor": 1,
-      "goalsAgainst": 7,
-      "played": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 10,
+      "played": 3,
       "points": 1,
       "group": "B"
     },
@@ -528,10 +528,10 @@
     "BIH": {
       "name": "Bosnia & Herzegovina",
       "flag": "🇧🇦",
-      "goalsFor": 2,
-      "goalsAgainst": 5,
-      "played": 2,
-      "points": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "played": 3,
+      "points": 4,
       "group": "B"
     },
     "CPV": {
@@ -1060,14 +1060,34 @@
       "homeGoals": 1,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "53",
+      "date": "06/24/2026 12:00",
+      "group": "B",
+      "home": "BIH",
+      "away": "QAT",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "id": "54",
+      "date": "06/24/2026 12:00",
+      "group": "B",
+      "home": "SUI",
+      "away": "CAN",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia leads the Golden Boot race with 15 goals from 6 games.",
-    "🇵🇹 POR is carrying Mena harder than airport luggage.",
-    "🇳🇴 NOR is making the Average Team prize look very spicy for Nadine.",
-    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
+    "Sofia has moved into “checking the prize money” territory.",
+    "Mena owes 🇵🇹 POR a thank-you card at this point.",
+    "Sofia's average team, 🇨🇭 SUI, is doing suspiciously well.",
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
