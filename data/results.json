@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:39:42.912Z",
+  "generatedAt": "2026-06-25T00:21:23.010Z",
   "players": [
     {
       "name": "Johnny",
@@ -195,10 +195,10 @@
     "BRA": {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "goalsFor": 4,
+      "goalsFor": 7,
       "goalsAgainst": 1,
-      "played": 2,
-      "points": 4,
+      "played": 3,
+      "points": 7,
       "group": "C"
     },
     "GER": {
@@ -231,10 +231,10 @@
     "MAR": {
       "name": "Morocco",
       "flag": "🇲🇦",
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "played": 2,
-      "points": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
+      "played": 3,
+      "points": 7,
       "group": "C"
     },
     "NED": {
@@ -448,8 +448,8 @@
       "name": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "goalsFor": 1,
-      "goalsAgainst": 1,
-      "played": 2,
+      "goalsAgainst": 4,
+      "played": 3,
       "points": 3,
       "group": "C"
     },
@@ -564,9 +564,9 @@
     "HTI": {
       "name": "Haiti",
       "flag": "🇭🇹",
-      "goalsFor": 0,
-      "goalsAgainst": 4,
-      "played": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 8,
+      "played": 3,
       "points": 0,
       "group": "C"
     },
@@ -1080,14 +1080,34 @@
       "homeGoals": 2,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "49",
+      "date": "06/24/2026 18:00",
+      "group": "C",
+      "home": "SCO",
+      "away": "BRA",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "status": "FT"
+    },
+    {
+      "id": "50",
+      "date": "06/24/2026 18:00",
+      "group": "C",
+      "home": "MAR",
+      "away": "HTI",
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia has moved into “checking the prize money” territory.",
-    "Mena owes 🇵🇹 POR a thank-you card at this point.",
-    "Sofia's average team, 🇨🇭 SUI, is doing suspiciously well.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Sofia leads the Golden Boot race with 18 goals from 8 games.",
+    "🇵🇹 POR is carrying Mena harder than airport luggage.",
+    "🇨🇭 SUI has quietly entered the “not so average” conversation for Sofia.",
+    "This leaderboard is temporary, but the group chat abuse is forever."
   ]
 }
