@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:21:54.426Z",
+  "generatedAt": "2026-06-25T22:45:07.191Z",
   "players": [
     {
       "name": "Johnny",
@@ -204,9 +204,9 @@
     "GER": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "goalsFor": 9,
-      "goalsAgainst": 2,
-      "played": 2,
+      "goalsFor": 10,
+      "goalsAgainst": 4,
+      "played": 3,
       "points": 6,
       "group": "E"
     },
@@ -330,10 +330,10 @@
     "ECU": {
       "name": "Ecuador",
       "flag": "🇪🇨",
-      "goalsFor": 0,
-      "goalsAgainst": 1,
-      "played": 2,
-      "points": 1,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "played": 3,
+      "points": 4,
       "group": "E"
     },
     "AUT": {
@@ -402,10 +402,10 @@
     "CIV": {
       "name": "Côte d’Ivoire",
       "flag": "🇨🇮",
-      "goalsFor": 2,
+      "goalsFor": 4,
       "goalsAgainst": 2,
-      "played": 2,
-      "points": 3,
+      "played": 3,
+      "points": 6,
       "group": "E"
     },
     "PAN": {
@@ -556,8 +556,8 @@
       "name": "Curaçao",
       "flag": "🇨🇼",
       "goalsFor": 1,
-      "goalsAgainst": 7,
-      "played": 2,
+      "goalsAgainst": 9,
+      "played": 3,
       "points": 1,
       "group": "E"
     },
@@ -1120,14 +1120,34 @@
       "homeGoals": 0,
       "awayGoals": 3,
       "status": "FT"
+    },
+    {
+      "id": "55",
+      "date": "06/25/2026 16:00",
+      "group": "E",
+      "home": "CUW",
+      "away": "CIV",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
+      "id": "56",
+      "date": "06/25/2026 16:00",
+      "group": "E",
+      "home": "ECU",
+      "away": "GER",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
-    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
-    "🇲🇽 MEX is making the Average Team prize look very spicy for Ziad.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
+    "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
+    "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
