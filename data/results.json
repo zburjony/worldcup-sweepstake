@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:45:07.191Z",
+  "generatedAt": "2026-06-26T01:29:05.800Z",
   "players": [
     {
       "name": "Johnny",
@@ -240,10 +240,10 @@
     "NED": {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "played": 2,
-      "points": 4,
+      "goalsFor": 10,
+      "goalsAgainst": 4,
+      "played": 3,
+      "points": 7,
       "group": "F"
     },
     "POR": {
@@ -294,10 +294,10 @@
     "JPN": {
       "name": "Japan",
       "flag": "🇯🇵",
-      "goalsFor": 6,
-      "goalsAgainst": 2,
-      "played": 2,
-      "points": 4,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "played": 3,
+      "points": 5,
       "group": "F"
     },
     "SUI": {
@@ -420,10 +420,10 @@
     "SWE": {
       "name": "Sweden",
       "flag": "🇸🇪",
-      "goalsFor": 6,
-      "goalsAgainst": 6,
-      "played": 2,
-      "points": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 7,
+      "played": 3,
+      "points": 4,
       "group": "F"
     },
     "CZE": {
@@ -465,9 +465,9 @@
     "TUN": {
       "name": "Tunisia",
       "flag": "🇹🇳",
-      "goalsFor": 1,
-      "goalsAgainst": 9,
-      "played": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 12,
+      "played": 3,
       "points": 0,
       "group": "F"
     },
@@ -1140,12 +1140,32 @@
       "homeGoals": 2,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "59",
+      "date": "06/25/2026 18:00",
+      "group": "F",
+      "home": "JPN",
+      "away": "SWE",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "id": "60",
+      "date": "06/25/2026 18:00",
+      "group": "F",
+      "home": "TUN",
+      "away": "NED",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "Sofia is currently pretending this was always part of the plan.",
     "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
     "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
     "The organiser accepts no responsibility for football, maths, or hurt feelings."
