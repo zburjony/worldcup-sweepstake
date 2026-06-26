@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:29:05.800Z",
+  "generatedAt": "2026-06-26T06:19:59.560Z",
   "players": [
     {
       "name": "Johnny",
@@ -285,9 +285,9 @@
     "USA": {
       "name": "United States",
       "flag": "🇺🇸",
-      "goalsFor": 6,
-      "goalsAgainst": 1,
-      "played": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 4,
+      "played": 3,
       "points": 6,
       "group": "D"
     },
@@ -321,10 +321,10 @@
     "TUR": {
       "name": "Türkiye",
       "flag": "🇹🇷",
-      "goalsFor": 0,
-      "goalsAgainst": 3,
-      "played": 2,
-      "points": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "played": 3,
+      "points": 3,
       "group": "D"
     },
     "ECU": {
@@ -359,8 +359,8 @@
       "flag": "🇦🇺",
       "goalsFor": 2,
       "goalsAgainst": 2,
-      "played": 2,
-      "points": 3,
+      "played": 3,
+      "points": 4,
       "group": "D"
     },
     "DZA": {
@@ -440,8 +440,8 @@
       "flag": "🇵🇾",
       "goalsFor": 2,
       "goalsAgainst": 4,
-      "played": 2,
-      "points": 3,
+      "played": 3,
+      "points": 4,
       "group": "D"
     },
     "SCO": {
@@ -1160,14 +1160,34 @@
       "homeGoals": 1,
       "awayGoals": 3,
       "status": "FT"
+    },
+    {
+      "id": "57",
+      "date": "06/25/2026 19:00",
+      "group": "D",
+      "home": "PAR",
+      "away": "AUS",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "id": "58",
+      "date": "06/25/2026 19:00",
+      "group": "D",
+      "home": "TUR",
+      "away": "USA",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Sofia is currently pretending this was always part of the plan.",
-    "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
+    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "Mena owes 🇵🇹 POR a thank-you card at this point.",
     "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
