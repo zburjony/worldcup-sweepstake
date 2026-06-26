@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:58:20.653Z",
+  "generatedAt": "2026-06-26T22:35:42.295Z",
   "players": [
     {
       "name": "Johnny",
@@ -1182,12 +1182,12 @@
       "status": "FT"
     }
   ],
-  "source": "https://worldcup26.ir/get/games",
-  "sourceOk": true,
+  "source": "last result and fallback-in-repo",
+  "sourceOk": false,
   "banter": [
-    "Sofia has started acting like a tactical genius. We are monitoring the situation.",
+    "Sofia is top of the table and absolutely not being humble about it.",
     "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
-    "Ziad may need to apologise to 🇲🇽 MEX for calling them average.",
+    "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
     "The organiser accepts no responsibility for football, maths, or hurt feelings."
   ]
 }
