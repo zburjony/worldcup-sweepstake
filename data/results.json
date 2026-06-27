@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T22:35:42.295Z",
+  "generatedAt": "2026-06-27T00:19:55.767Z",
   "players": [
     {
       "name": "Johnny",
@@ -177,10 +177,10 @@
     "FRA": {
       "name": "France",
       "flag": "🇫🇷",
-      "goalsFor": 6,
-      "goalsAgainst": 1,
-      "played": 2,
-      "points": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 2,
+      "played": 3,
+      "points": 9,
       "group": "I"
     },
     "BEL": {
@@ -267,10 +267,10 @@
     "SEN": {
       "name": "Senegal",
       "flag": "🇸🇳",
-      "goalsFor": 3,
+      "goalsFor": 8,
       "goalsAgainst": 6,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 3,
       "group": "I"
     },
     "URU": {
@@ -393,9 +393,9 @@
     "NOR": {
       "name": "Norway",
       "flag": "🇳🇴",
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "played": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 7,
+      "played": 3,
       "points": 6,
       "group": "I"
     },
@@ -484,8 +484,8 @@
       "name": "Iraq",
       "flag": "🇮🇶",
       "goalsFor": 1,
-      "goalsAgainst": 7,
-      "played": 2,
+      "goalsAgainst": 12,
+      "played": 3,
       "points": 0,
       "group": "I"
     },
@@ -1180,14 +1180,34 @@
       "homeGoals": 3,
       "awayGoals": 2,
       "status": "FT"
+    },
+    {
+      "id": "61",
+      "date": "06/26/2026 15:00",
+      "group": "I",
+      "home": "SEN",
+      "away": "IRQ",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "id": "62",
+      "date": "06/26/2026 15:00",
+      "group": "I",
+      "home": "NOR",
+      "away": "FRA",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "status": "FT"
     }
   ],
-  "source": "last result and fallback-in-repo",
-  "sourceOk": false,
+  "source": "https://worldcup26.ir/get/games",
+  "sourceOk": true,
   "banter": [
-    "Sofia is top of the table and absolutely not being humble about it.",
-    "🇵🇹 POR has put Mena's sweepstake campaign on its back.",
+    "Antoinette has moved into “checking the prize money” territory.",
+    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
     "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
-    "The organiser accepts no responsibility for football, maths, or hurt feelings."
+    "All complaints about the draw remain formally ignored."
   ]
 }
