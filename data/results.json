@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:17:59.106Z",
+  "generatedAt": "2026-06-28T04:48:53.051Z",
   "players": [
     {
       "name": "Johnny",
@@ -150,10 +150,10 @@
     "ARG": {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "goalsFor": 5,
-      "goalsAgainst": 0,
-      "played": 2,
-      "points": 6,
+      "goalsFor": 8,
+      "goalsAgainst": 1,
+      "played": 3,
+      "points": 9,
       "group": "J"
     },
     "ENG": {
@@ -224,8 +224,8 @@
       "flag": "🇨🇴",
       "goalsFor": 4,
       "goalsAgainst": 1,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 7,
       "group": "K"
     },
     "MAR": {
@@ -251,8 +251,8 @@
       "flag": "🇵🇹",
       "goalsFor": 6,
       "goalsAgainst": 1,
-      "played": 2,
-      "points": 4,
+      "played": 3,
+      "points": 5,
       "group": "K"
     },
     "MEX": {
@@ -339,10 +339,10 @@
     "AUT": {
       "name": "Austria",
       "flag": "🇦🇹",
-      "goalsFor": 3,
-      "goalsAgainst": 3,
-      "played": 2,
-      "points": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 6,
+      "played": 3,
+      "points": 4,
       "group": "J"
     },
     "KOR": {
@@ -366,10 +366,10 @@
     "DZA": {
       "name": "Algeria",
       "flag": "🇩🇿",
-      "goalsFor": 2,
-      "goalsAgainst": 4,
-      "played": 2,
-      "points": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 7,
+      "played": 3,
+      "points": 4,
       "group": "J"
     },
     "EGY": {
@@ -456,10 +456,10 @@
     "COD": {
       "name": "DR Congo",
       "flag": "🇨🇩",
-      "goalsFor": 1,
-      "goalsAgainst": 2,
-      "played": 2,
-      "points": 1,
+      "goalsFor": 4,
+      "goalsAgainst": 3,
+      "played": 3,
+      "points": 4,
       "group": "K"
     },
     "TUN": {
@@ -474,9 +474,9 @@
     "UZB": {
       "name": "Uzbekistan",
       "flag": "🇺🇿",
-      "goalsFor": 1,
-      "goalsAgainst": 8,
-      "played": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 11,
+      "played": 3,
       "points": 0,
       "group": "K"
     },
@@ -519,9 +519,9 @@
     "JOR": {
       "name": "Jordan",
       "flag": "🇯🇴",
-      "goalsFor": 2,
-      "goalsAgainst": 5,
-      "played": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 8,
+      "played": 3,
       "points": 0,
       "group": "J"
     },
@@ -1260,14 +1260,54 @@
       "homeGoals": 2,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "71",
+      "date": "06/27/2026 19:30",
+      "group": "K",
+      "home": "COL",
+      "away": "POR",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "id": "72",
+      "date": "06/27/2026 19:30",
+      "group": "K",
+      "home": "COD",
+      "away": "UZB",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "id": "69",
+      "date": "06/27/2026 21:00",
+      "group": "J",
+      "home": "DZA",
+      "away": "AUT",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "status": "FT"
+    },
+    {
+      "id": "70",
+      "date": "06/27/2026 21:00",
+      "group": "J",
+      "home": "JOR",
+      "away": "ARG",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Antoinette is currently pretending this was always part of the plan.",
-    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
-    "🇲🇽 MEX is making the Average Team prize look very spicy for Ziad.",
-    "All complaints about the draw remain formally ignored."
+    "Yasmeena has started acting like a tactical genius. We are monitoring the situation.",
+    "Mena owes 🇵🇹 POR a thank-you card at this point.",
+    "Ziad may need to apologise to 🇲🇽 MEX for calling them average.",
+    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
   ]
 }
