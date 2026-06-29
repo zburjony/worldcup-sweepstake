@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:47:37.283Z",
+  "generatedAt": "2026-06-29T20:14:45.433Z",
   "players": [
     {
       "name": "Johnny",
@@ -195,10 +195,10 @@
     "BRA": {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "goalsFor": 7,
-      "goalsAgainst": 1,
-      "played": 3,
-      "points": 7,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
+      "played": 4,
+      "points": 10,
       "group": "C"
     },
     "GER": {
@@ -294,9 +294,9 @@
     "JPN": {
       "name": "Japan",
       "flag": "🇯🇵",
-      "goalsFor": 7,
-      "goalsAgainst": 3,
-      "played": 3,
+      "goalsFor": 8,
+      "goalsAgainst": 5,
+      "played": 4,
       "points": 5,
       "group": "F"
     },
@@ -1310,14 +1310,24 @@
       "homeGoals": 0,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "76",
+      "date": "06/29/2026 12:00",
+      "group": "R32",
+      "home": "BRA",
+      "away": "JPN",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Yasmeena has started acting like a tactical genius. We are monitoring the situation.",
-    "🇵🇹 POR is doing the heavy lifting while Mena's other teams enjoy the view.",
+    "Yasmeena is currently pretending this was always part of the plan.",
+    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
     "🇲🇽 MEX has quietly entered the “not so average” conversation for Ziad.",
-    "All complaints about the draw remain formally ignored."
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
