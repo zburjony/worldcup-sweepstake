@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:13:48.407Z",
+  "generatedAt": "2026-06-30T20:19:14.212Z",
   "players": [
     {
       "name": "Johnny",
@@ -393,18 +393,18 @@
     "NOR": {
       "name": "Norway",
       "flag": "🇳🇴",
-      "goalsFor": 8,
-      "goalsAgainst": 7,
-      "played": 3,
-      "points": 6,
+      "goalsFor": 10,
+      "goalsAgainst": 8,
+      "played": 4,
+      "points": 9,
       "group": "I"
     },
     "CIV": {
       "name": "Côte d’Ivoire",
       "flag": "🇨🇮",
-      "goalsFor": 4,
-      "goalsAgainst": 2,
-      "played": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 4,
+      "played": 4,
       "points": 6,
       "group": "E"
     },
@@ -1340,14 +1340,24 @@
       "homeGoals": 1,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "78",
+      "date": "06/30/2026 12:00",
+      "group": "R32",
+      "home": "CIV",
+      "away": "NOR",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Yasmeena is top of the table and absolutely not being humble about it.",
-    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
-    "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
-    "All complaints about the draw remain formally ignored."
+    "Yasmeena has moved into “checking the prize money” territory.",
+    "🇵🇹 POR is carrying Mena harder than airport luggage.",
+    "🇳🇴 NOR is making the Average Team prize look very spicy for Nadine.",
+    "This leaderboard is temporary, but the group chat abuse is forever."
   ]
 }
