@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:15:44.442Z",
+  "generatedAt": "2026-06-30T01:25:30.768Z",
   "players": [
     {
       "name": "Johnny",
@@ -204,10 +204,10 @@
     "GER": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "goalsFor": 10,
-      "goalsAgainst": 4,
-      "played": 3,
-      "points": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 5,
+      "played": 4,
+      "points": 7,
       "group": "E"
     },
     "CRO": {
@@ -438,10 +438,10 @@
     "PAR": {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "goalsFor": 2,
-      "goalsAgainst": 4,
-      "played": 3,
-      "points": 4,
+      "goalsFor": 3,
+      "goalsAgainst": 5,
+      "played": 4,
+      "points": 5,
       "group": "D"
     },
     "SCO": {
@@ -1320,14 +1320,24 @@
       "homeGoals": 2,
       "awayGoals": 1,
       "status": "FT"
+    },
+    {
+      "id": "74",
+      "date": "06/29/2026 16:30",
+      "group": "R32",
+      "home": "GER",
+      "away": "PAR",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Yasmeena leads the Golden Boot race with 21 goals from 9 games.",
-    "🇵🇹 POR is responsible for 86% of Mena's goals. That is not teamwork, that is outsourcing.",
+    "Yasmeena has started acting like a tactical genius. We are monitoring the situation.",
+    "Mena owes 🇵🇹 POR a thank-you card at this point.",
     "Ziad's average team, 🇲🇽 MEX, is doing suspiciously well.",
-    "All complaints about the draw remain formally ignored."
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
