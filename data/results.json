@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T15:49:25.608Z",
+  "generatedAt": "2026-07-01T18:15:45.139Z",
   "players": [
     {
       "name": "Johnny",
@@ -159,10 +159,10 @@
     "ENG": {
       "name": "England",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "goalsFor": 6,
-      "goalsAgainst": 2,
-      "played": 3,
-      "points": 7,
+      "goalsFor": 8,
+      "goalsAgainst": 3,
+      "played": 4,
+      "points": 10,
       "group": "L"
     },
     "ESP": {
@@ -456,9 +456,9 @@
     "COD": {
       "name": "DR Congo",
       "flag": "🇨🇩",
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "played": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
+      "played": 4,
       "points": 4,
       "group": "K"
     },
@@ -1370,14 +1370,24 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
+    },
+    {
+      "id": "80",
+      "date": "07/01/2026 12:00",
+      "group": "R32",
+      "home": "ENG",
+      "away": "COD",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
-    "Yasmeena leads the Golden Boot race with 24 goals from 10 games.",
-    "🇵🇹 POR is carrying Mena harder than airport luggage.",
-    "🇲🇽 MEX has quietly entered the “not so average” conversation for Ziad.",
-    "VAR has reviewed the sweepstake and confirmed everyone should calm down."
+    "Yasmeena is currently pretending this was always part of the plan.",
+    "Mena owes 🇵🇹 POR a thank-you card at this point.",
+    "Ziad may need to apologise to 🇲🇽 MEX for calling them average.",
+    "If your team has not played yet, congratulations: hope remains undefeated."
   ]
 }
