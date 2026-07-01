@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:39:12.322Z",
+  "generatedAt": "2026-07-01T00:20:53.567Z",
   "players": [
     {
       "name": "Johnny",
@@ -177,10 +177,10 @@
     "FRA": {
       "name": "France",
       "flag": "🇫🇷",
-      "goalsFor": 10,
+      "goalsFor": 13,
       "goalsAgainst": 2,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "group": "I"
     },
     "BEL": {
@@ -421,8 +421,8 @@
       "name": "Sweden",
       "flag": "🇸🇪",
       "goalsFor": 7,
-      "goalsAgainst": 7,
-      "played": 3,
+      "goalsAgainst": 10,
+      "played": 4,
       "points": 4,
       "group": "F"
     },
@@ -1350,14 +1350,24 @@
       "homeGoals": 1,
       "awayGoals": 2,
       "status": "FT"
+    },
+    {
+      "id": "77",
+      "date": "06/30/2026 17:00",
+      "group": "R32",
+      "home": "FRA",
+      "away": "SWE",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FT"
     }
   ],
   "source": "https://worldcup26.ir/get/games",
   "sourceOk": true,
   "banter": [
     "Yasmeena is currently pretending this was always part of the plan.",
-    "Mena owes 🇵🇹 POR a thank-you card at this point.",
+    "🇵🇹 POR is doing the heavy lifting while Mena's other teams enjoy the view.",
     "🇳🇴 NOR has quietly entered the “not so average” conversation for Nadine.",
-    "If your team has not played yet, congratulations: hope remains undefeated."
+    "All complaints about the draw remain formally ignored."
   ]
 }
